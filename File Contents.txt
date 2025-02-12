@@ -1,0 +1,2986 @@
+Dr.Moosa@ANMC-Dental MINGW64 ~/Downloads/daftplug-instantify_7.6/daftplug-instantify (main)
+$ ls -R
+.:
+admin/  daftplug-instantify.php  includes/  languages/  pwa/
+amp/    fbia/                    index.php  public/     uninstall.php
+
+./admin:
+assets/  class-admin.php  index.php  templates/
+
+./admin/assets:
+css/  img/  js/  sass/
+
+./admin/assets/css:
+fonts/           style-admin.min.css  style-metabox.css
+style-admin.css  style-intro.css      style-metabox.min.css
+
+./admin/assets/css/fonts:
+daftplug-bold.ttf     daftplug-italic.woff2  daftplug-medium.woff
+daftplug-bold.woff    daftplug-light.ttf     daftplug-medium.woff2
+daftplug-bold.woff2   daftplug-light.woff    daftplug-normal.ttf
+daftplug-italic.ttf   daftplug-light.woff2   daftplug-normal.woff
+daftplug-italic.woff  daftplug-medium.ttf    daftplug-normal.woff2
+
+./admin/assets/img:
+icon-android.png           image-activate-purchase-code.jpg
+icon-file.png              image-article-styles-default.png
+icon-ios.png               image-article-styles.png
+icon-logo.png              image-connect-site.png
+icon-menu.png              image-copy-page-id.png
+icon-meta.png              image-download-purchase-code.jpg
+icon-warning.png           image-paste-page-id.png
+icon-windows.png           image-purchase-code.jpg
+illustration-amp.png       image-review.png
+illustration-fbia.png      image-rss-feed-facebook.png
+illustration-overview.png  image-rss-feed-overview.png
+illustration-pwa.png       image-signup.png
+illustration-settings.png  image-store-preview.png
+illustration-support.png   image-submit-for-review.png
+
+./admin/assets/js:
+script-admin.js      script-chart.js  script-jscolor.js  script-metabox.min.js
+script-admin.min.js  script-intro.js  script-metabox.js
+
+./admin/assets/sass:
+main.scss
+
+./admin/templates:
+footer.php  page-activation.php  page-fbia.php      page-settings.php
+header.php  page-amp.php         page-overview.php  page-support.php
+index.php   page-error.php       page-pwa.php
+
+./amp:
+admin/  includes/  public/
+
+./amp/admin:
+assets/                   class-analytics.php      class-general.php
+class-admin.php           class-compatibility.php  index.php
+class-advertisements.php  class-gdprconsent.php    templates/
+
+./amp/admin/assets:
+css/  js/
+
+./amp/admin/assets/css:
+style-amp.css  style-amp.min.css
+
+./amp/admin/assets/js:
+script-amp.js  script-amp.min.js
+
+./amp/admin/templates:
+index.php                   subpage-analytics.php      subpage-gdprconsent.php
+subpage-advertisements.php  subpage-compatibility.php  subpage-general.php
+
+./amp/includes:
+class-plugin.php  index.php  libs/
+
+./amp/includes/libs:
+amp/  index.php
+
+./amp/includes/libs/amp:
+LICENSE  assets/       includes/   src/        uninstall.php
+amp.php  back-compat/  readme.txt  templates/  vendor/
+
+./amp/includes/libs/amp/assets:
+css/  fonts/  images/  js/
+
+./amp/includes/libs/amp/assets/css:
+admin-tables-rtl.css                 amp-paired-browsing-app.css
+admin-tables.css                     amp-playlist-shortcode-rtl.css
+amp-admin-rtl.css                    amp-playlist-shortcode.css
+amp-admin.css                        amp-post-meta-box-rtl.css
+amp-block-editor-rtl.css             amp-post-meta-box.css
+amp-block-editor.css                 amp-settings-rtl.css
+amp-block-validation-rtl.css         amp-settings.css
+amp-block-validation.css             amp-site-scan-notice-rtl.css
+amp-customizer-legacy-rtl.css        amp-site-scan-notice.css
+amp-customizer-legacy.css            amp-support-rtl.css
+amp-customizer-rtl.css               amp-support.css
+amp-customizer.css                   amp-validation-counts-rtl.css
+amp-default-rtl.css                  amp-validation-counts.css
+amp-default.css                      amp-validation-error-taxonomy-rtl.css
+amp-icons-rtl.css                    amp-validation-error-taxonomy.css
+amp-icons.css                        amp-validation-single-error-url-rtl.css
+amp-mobile-version-switcher-rtl.css  amp-validation-single-error-url.css
+amp-mobile-version-switcher.css      amp-validation-tooltips-rtl.css
+amp-onboarding-wizard-rtl.css        amp-validation-tooltips.css
+amp-onboarding-wizard.css            wp-components-rtl.css
+amp-paired-browsing-app-rtl.css      wp-components.css
+
+./amp/includes/libs/amp/assets/fonts:
+genericons.woff  nonbreakingspaceoverride.woff  nonbreakingspaceoverride.woff2
+
+./amp/includes/libs/amp/assets/images:
+amp-alert.svg            amp-page-fallback-wordpress-publisher-logo.png
+amp-black-icon.svg       amp-toolbar-icon-broken.svg
+amp-css-error-icon.svg   amp-valid.svg
+amp-delete.svg           amp-validation-errors-kept.svg
+amp-html-error-icon.svg  amp-validation-errors.svg
+amp-icon-toolbar.svg     amp-white-icon.svg
+amp-icon.svg             bell-icon.svg
+amp-js-error-icon.svg    down-triangle.svg
+amp-logo-gray.svg        placeholder-icon.png
+amp-logo-icon.svg        reader-themes/
+
+./amp/includes/libs/amp/assets/images/reader-themes:
+legacy.jpg         twentyfourteen.jpg   twentysixteen.jpg   twentytwenty.jpg
+twentyeleven.jpg   twentynineteen.jpg   twentythirteen.jpg  twentytwentyone.jpg
+twentyfifteen.jpg  twentyseventeen.jpg  twentytwelve.jpg
+
+./amp/includes/libs/amp/assets/js:
+amp-block-editor.asset.php
+amp-block-editor.js
+amp-block-validation.asset.php
+amp-block-validation.js
+amp-customize-controls-legacy.asset.php
+amp-customize-controls-legacy.js
+amp-customize-controls.asset.php
+amp-customize-controls.js
+amp-customize-preview-legacy.asset.php
+amp-customize-preview-legacy.js
+amp-customizer-design-preview-legacy.asset.php
+amp-customizer-design-preview-legacy.js
+amp-onboarding-wizard.asset.php
+amp-onboarding-wizard.js
+amp-paired-browsing-app.asset.php
+amp-paired-browsing-app.js
+amp-paired-browsing-client.asset.php
+amp-paired-browsing-client.js
+amp-plugin-install.asset.php
+amp-plugin-install.js
+amp-post-meta-box.asset.php
+amp-post-meta-box.js
+amp-service-worker-runtime-precaching.js
+amp-settings.asset.php
+amp-settings.js
+amp-site-scan-notice.asset.php
+amp-site-scan-notice.js
+amp-support.asset.php
+amp-support.js
+amp-theme-install.asset.php
+amp-theme-install.js
+amp-validated-url-post-edit-screen.asset.php
+amp-validated-url-post-edit-screen.js
+amp-validation-counts.asset.php
+amp-validation-counts.js
+amp-validation-detail-toggle.asset.php
+amp-validation-detail-toggle.js
+amp-validation-single-error-url-details.asset.php
+amp-validation-single-error-url-details.js
+amp-validation-tooltips.asset.php
+amp-validation-tooltips.js
+mobile-redirection.asset.php
+mobile-redirection.js
+vendor/
+wp-api-fetch.asset.php
+wp-api-fetch.js
+wp-dom-ready.asset.php
+wp-dom-ready.js
+wp-hooks.asset.php
+wp-hooks.js
+wp-html-entities.asset.php
+wp-html-entities.js
+wp-i18n.asset.php
+wp-i18n.js
+wp-polyfill.asset.php
+wp-polyfill.js
+wp-url.asset.php
+wp-url.js
+
+./amp/includes/libs/amp/assets/js/vendor:
+lodash.js
+
+./amp/includes/libs/amp/back-compat:
+back-compat.php  templates-v0-3/
+
+./amp/includes/libs/amp/back-compat/templates-v0-3:
+header-bar.php   meta-taxonomy.php  single.php
+meta-author.php  meta-time.php      style.php
+
+./amp/includes/libs/amp/includes:
+admin/                           deprecated.php
+amp-frontend-actions.php         ecosystem-data/
+amp-helper-functions.php         embeds/
+amp-post-template-functions.php  options/
+bootstrap.php                    sanitizers/
+class-amp-autoloader.php         settings/
+class-amp-comment-walker.php     templates/
+class-amp-http.php               uninstall-functions.php
+class-amp-post-type-support.php  utils/
+class-amp-service-worker.php     validation/
+class-amp-theme-support.php      widgets/
+
+./amp/includes/libs/amp/includes/admin:
+class-amp-admin-pointer.php   class-amp-post-meta-box.php
+class-amp-admin-pointers.php  class-amp-template-customizer.php
+class-amp-editor-blocks.php   functions.php
+
+./amp/includes/libs/amp/includes/ecosystem-data:
+analytics-vendors.php  plugins.php  themes.php
+
+./amp/includes/libs/amp/includes/embeds:
+class-amp-base-embed-handler.php
+class-amp-core-block-handler.php
+class-amp-crowdsignal-embed-handler.php
+class-amp-dailymotion-embed-handler.php
+class-amp-facebook-embed-handler.php
+class-amp-gallery-embed-handler.php
+class-amp-gfycat-embed-handler.php
+class-amp-imgur-embed-handler.php
+class-amp-instagram-embed-handler.php
+class-amp-issuu-embed-handler.php
+class-amp-meetup-embed-handler.php
+class-amp-pinterest-embed-handler.php
+class-amp-playlist-embed-handler.php
+class-amp-reddit-embed-handler.php
+class-amp-scribd-embed-handler.php
+class-amp-soundcloud-embed-handler.php
+class-amp-tiktok-embed-handler.php
+class-amp-tumblr-embed-handler.php
+class-amp-twitter-embed-handler.php
+class-amp-vimeo-embed-handler.php
+class-amp-wordpress-embed-handler.php
+class-amp-wordpress-tv-embed-handler.php
+class-amp-youtube-embed-handler.php
+
+./amp/includes/libs/amp/includes/options:
+class-amp-options-manager.php  class-amp-reader-theme-rest-controller.php
+
+./amp/includes/libs/amp/includes/sanitizers:
+class-amp-accessibility-sanitizer.php
+class-amp-allowed-tags-generated.php
+class-amp-audio-sanitizer.php
+class-amp-auto-lightbox-disable-sanitizer.php
+class-amp-base-sanitizer.php
+class-amp-bento-sanitizer.php
+class-amp-block-sanitizer.php
+class-amp-block-uniqid-sanitizer.php
+class-amp-comments-sanitizer.php
+class-amp-core-theme-sanitizer.php
+class-amp-dev-mode-sanitizer.php
+class-amp-embed-sanitizer.php
+class-amp-form-sanitizer.php
+class-amp-gallery-block-sanitizer.php
+class-amp-gtag-script-sanitizer.php
+class-amp-iframe-sanitizer.php
+class-amp-img-sanitizer.php
+class-amp-layout-sanitizer.php
+class-amp-link-sanitizer.php
+class-amp-meta-sanitizer.php
+class-amp-native-img-attributes-sanitizer.php
+class-amp-nav-menu-dropdown-sanitizer.php
+class-amp-nav-menu-toggle-sanitizer.php
+class-amp-o2-player-sanitizer.php
+class-amp-object-sanitizer.php
+class-amp-playbuzz-sanitizer.php
+class-amp-pwa-script-sanitizer.php
+class-amp-rule-spec.php
+class-amp-script-sanitizer.php
+class-amp-srcset-sanitizer.php
+class-amp-style-sanitizer.php
+class-amp-tag-and-attribute-sanitizer.php
+class-amp-video-sanitizer.php
+trait-amp-noscript-fallback.php
+
+./amp/includes/libs/amp/includes/settings:
+class-amp-customizer-design-settings.php  class-amp-customizer-settings.php
+
+./amp/includes/libs/amp/includes/templates:
+amp-enabled-classic-editor-toggle.php  class-amp-content.php
+amp-paired-browsing.php                class-amp-post-template.php
+class-amp-content-sanitizer.php        reader-template-loader.php
+
+./amp/includes/libs/amp/includes/utils:
+class-amp-dom-utils.php   class-amp-image-dimension-extractor.php
+class-amp-html-utils.php  class-amp-string-utils.php
+
+./amp/includes/libs/amp/includes/validation:
+class-amp-validated-url-post-type.php
+class-amp-validation-callback-wrapper.php
+class-amp-validation-error-taxonomy.php
+class-amp-validation-manager.php
+
+./amp/includes/libs/amp/includes/widgets:
+class-amp-widget-archives.php    class-amp-widget-text.php
+class-amp-widget-categories.php
+
+./amp/includes/libs/amp/src:
+Admin/                           MobileRedirection.php
+AmpSlugCustomizationWatcher.php  ObsoleteBlockAttributeRemover.php
+AmpWpPlugin.php                  Optimizer/
+AmpWpPluginFactory.php           Option.php
+BackgroundTask/                  OptionsRESTController.php
+BlockUniqidTransformer.php       PairedRouting.php
+Cli/                             PairedUrl.php
+Component/                       PairedUrlStructure/
+ConfigurationArgument.php        PairedUrlStructure.php
+DependencySupport.php            PluginRegistry.php
+DevTools/                        PluginSuppression.php
+Dom/                             QueryVar.php
+Editor/                          ReaderThemeLoader.php
+Embed/                           ReaderThemeSupportFeatures.php
+Exception/                       RemoteRequest/
+ExtraThemeAndPluginHeaders.php   Sandboxing.php
+Icon.php                         Services.php
+Infrastructure/                  Support/
+Instrumentation/                 Validation/
+LoadingError.php                 ValidationExemption.php
+
+./amp/includes/libs/amp/src/Admin:
+AfterActivationSiteScan.php      PluginRowMeta.php
+AmpPlugins.php                   Polyfills.php
+AmpThemes.php                    RESTPreloader.php
+AnalyticsOptionsSubmenu.php      ReaderThemes.php
+GoogleFonts.php                  ReenableCssTransientCachingAjaxAction.php
+OnboardingWizardSubmenu.php      SiteHealth.php
+OnboardingWizardSubmenuPage.php  SupportLink.php
+OptionsMenu.php                  SupportScreen.php
+PairedBrowsing.php               UserRESTEndpointExtension.php
+PluginActivationNotice.php       ValidationCounts.php
+
+./amp/includes/libs/amp/src/BackgroundTask:
+BackgroundTaskDeactivator.php   SingleScheduledBackgroundTask.php
+CronBasedBackgroundTask.php     ValidatedUrlStylesheetDataGarbageCollection.php
+MonitorCssTransientCaching.php  ValidationDataGarbageCollection.php
+RecurringBackgroundTask.php
+
+./amp/includes/libs/amp/src/Cli:
+AmpCommandNamespace.php           OptimizerCommand.php  TransformerCommand.php
+CommandNamespaceRegistration.php  OptionCommand.php     ValidationCommand.php
+
+./amp/includes/libs/amp/src/Component:
+CaptionedSlide.php  Carousel.php  HasCaption.php
+
+./amp/includes/libs/amp/src/DevTools:
+BlockSources.php        ErrorPage.php       LikelyCulpritDetector.php
+CallbackReflection.php  FileReflection.php  UserAccess.php
+
+./amp/includes/libs/amp/src/Dom:
+ElementList.php  Options.php
+
+./amp/includes/libs/amp/src/Editor:
+EditorSupport.php
+
+./amp/includes/libs/amp/src/Embed:
+HandlesGalleryEmbed.php
+
+./amp/includes/libs/amp/src/Exception:
+AmpWpException.php        InvalidEventProperties.php  InvalidStopwatchEvent.php
+FailedToMakeInstance.php  InvalidService.php
+
+./amp/includes/libs/amp/src/Infrastructure:
+Activateable.php    HasRequirements.php  Registerable.php
+CliCommand.php      Injector/            Service.php
+Conditional.php     Injector.php         ServiceBasedPlugin.php
+Deactivateable.php  Instantiator.php     ServiceContainer/
+Delayed.php         Plugin.php           ServiceContainer.php
+
+./amp/includes/libs/amp/src/Infrastructure/Injector:
+FallbackInstantiator.php  InjectionChain.php  SimpleInjector.php
+
+./amp/includes/libs/amp/src/Infrastructure/ServiceContainer:
+LazilyInstantiatedService.php  SimpleServiceContainer.php
+
+./amp/includes/libs/amp/src/Instrumentation:
+Event.php              ServerTiming.php  StopWatchEvent.php
+EventWithDuration.php  StopWatch.php
+
+./amp/includes/libs/amp/src/Optimizer:
+AmpWPConfiguration.php      OptimizerService.php
+HeroCandidateFiltering.php  Transformer/
+
+./amp/includes/libs/amp/src/Optimizer/Transformer:
+AmpSchemaOrgMetadata.php               DetermineHeroImages.php
+AmpSchemaOrgMetadataConfiguration.php
+
+./amp/includes/libs/amp/src/PairedUrlStructure:
+LegacyReaderUrlStructure.php        PathSuffixUrlStructure.php
+LegacyTransitionalUrlStructure.php  QueryVarUrlStructure.php
+
+./amp/includes/libs/amp/src/RemoteRequest:
+CachedRemoteGetRequest.php  CachedResponse.php  WpHttpRemoteGetRequest.php
+
+./amp/includes/libs/amp/src/Support:
+SupportCliCommand.php  SupportData.php  SupportRESTController.php
+
+./amp/includes/libs/amp/src/Validation:
+ScannableURLProvider.php         URLValidationProvider.php
+ScannableURLsRestController.php  URLValidationRESTController.php
+URLValidationCron.php            ValidationCountsRestController.php
+
+./amp/includes/libs/amp/templates:
+featured-image.php  html-end.php            meta-taxonomy.php  style.php
+footer.php          html-start.php          meta-time.php
+header-bar.php      meta-author.php         page.php
+header.php          meta-comments-link.php  single.php
+
+./amp/includes/libs/amp/vendor:
+ampproject/  autoload.php  composer/  fasterimage/  sabberworm/  willwashburn/
+
+./amp/includes/libs/amp/vendor/ampproject:
+amp-toolbox/
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox:
+include/  resources/  src/
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/include:
+compatibility-fixes.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/resources:
+local_fallback/
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/resources/local_fallback:
+rtv/  v0.css
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/resources/local_fallback/rtv:
+metadata
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src:
+Amp.php               Extension.php         RemoteRequest/
+Cli/                  FakeEnum.php          Response.php
+CompatibilityFix/     Format.php            RuntimeVersion.php
+CompatibilityFix.php  Html/                 ScriptReleaseVersion.php
+CssLength.php         Internal.php          Str.php
+DevMode.php           Layout.php            Url.php
+Dom/                  Optimizer/            Validator/
+Encoding.php          Protocol.php
+Exception/            RemoteGetRequest.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Cli:
+AmpExecutable.php  Command/     Executable.php  Options.php
+Colors.php         Command.php  LogLevel.php    TableFormatter.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Cli/Command:
+Optimize.php  Validate.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/CompatibilityFix:
+MovedClasses.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Dom:
+Document/     Element.php      LinkManager.php  Options.php
+Document.php  ElementDump.php  NodeWalker.php   UniqueIdManager.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Dom/Document:
+AfterLoadFilter.php  BeforeLoadFilter.php  Filter/     Option.php
+AfterSaveFilter.php  BeforeSaveFilter.php  Filter.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Dom/Document/Filter:
+AmpBindAttributes.php          MustacheScriptTemplates.php
+AmpEmojiAttribute.php          NormalizeHtmlAttributes.php
+ConvertHeadProfileToLink.php   NormalizeHtmlEntities.php
+DeduplicateTag.php             NoscriptElements.php
+DetectInvalidByteSequence.php  ProtectEsiTags.php
+DoctypeNode.php                SelfClosingSVGElements.php
+DocumentEncoding.php           SelfClosingTags.php
+HttpEquivCharset.php           SvgSourceAttributeEncoding.php
+LibxmlCompatibility.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Exception:
+AmpCliException.php                     InvalidDeclarationName.php
+AmpException.php                        InvalidDocRulesetName.php
+Cli/                                    InvalidDocumentFilter.php
+FailedRemoteRequest.php                 InvalidErrorCode.php
+FailedToCreateLink.php                  InvalidExtension.php
+FailedToGetCachedResponse.php           InvalidFormat.php
+FailedToGetFromRemoteUrl.php            InvalidListName.php
+FailedToParseHtml.php                   InvalidOptionValue.php
+FailedToParseUrl.php                    InvalidSpecName.php
+FailedToRetrieveRequiredDomElement.php  InvalidSpecRuleName.php
+InvalidAttributeName.php                InvalidTagId.php
+InvalidByteSequence.php                 InvalidTagName.php
+InvalidCssRulesetName.php               MaxCssByteCountExceeded.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Exception/Cli:
+InvalidArgument.php      InvalidCommand.php  MissingArgument.php
+InvalidColor.php         InvalidOption.php
+InvalidColumnFormat.php  InvalidSapi.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Html:
+AtRule.php      LowerCaseTag.php        Role.php
+Attribute.php   Parser/                 Tag.php
+LengthUnit.php  RequestDestination.php  UpperCaseTag.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Html/Parser:
+DocLocator.php  HtmlSaxHandler.php              ParsedTag.php     TagRegion.php
+EFlags.php      HtmlSaxHandlerWithLocation.php  ScriptTag.php
+HtmlParser.php  ParsedAttribute.php             TagNameStack.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Optimizer:
+Configuration/            Error.php            TransformationEngine.php
+Configuration.php         ErrorCollection.php  Transformer/
+CssRule.php               Exception/           Transformer.php
+CssRules.php              HeroImage.php        TransformerConfiguration.php
+DefaultConfiguration.php  ImageDimensions.php
+Error/                    LocalFallback.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Optimizer/Configuration:
+AmpRuntimeCssConfiguration.php         OptimizeHeroImagesConfiguration.php
+AmpStoryCssOptimizerConfiguration.php  OptimizeViewportConfiguration.php
+AutoExtensionsConfiguration.php        PreloadHeroImageConfiguration.php
+BaseTransformerConfiguration.php       RewriteAmpUrlsConfiguration.php
+MinifyHtmlConfiguration.php            TransformedIdentifierConfiguration.php
+OptimizeAmpBindConfiguration.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Optimizer/Error:
+CannotAdaptDocumentForSelfHosting.php  DeprecatedTransformer.php
+CannotInlineRuntimeCss.php             ErrorProperties.php
+CannotMinifyAmpScript.php              InvalidJson.php
+CannotParseJsonData.php                MissingPackage.php
+CannotPerformServerSideRendering.php   TooManyHeroImages.php
+CannotPreloadImage.php                 UnknownError.php
+CannotRemoveBoilerplate.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Optimizer/Exception:
+AmpOptimizerException.php    InvalidConfigurationValue.php
+InvalidArgument.php          InvalidHtmlAttribute.php
+InvalidConfiguration.php     UnknownConfigurationClass.php
+InvalidConfigurationKey.php  UnknownConfigurationKey.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Optimizer/Transformer:
+AmpBoilerplate.php              OptimizeAmpBind.php
+AmpBoilerplateErrorHandler.php  OptimizeHeroImages.php
+AmpRuntimeCss.php               OptimizeViewport.php
+AmpRuntimePreloads.php          PreloadHeroImage.php
+AmpStoryCssOptimizer.php        ReorderHead.php
+AutoExtensions.php              RewriteAmpUrls.php
+GoogleFontsPreconnect.php       ServerSideRendering.php
+MinifyHtml.php                  TransformedIdentifier.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/RemoteRequest:
+CurlRemoteGetRequest.php        RemoteGetRequestResponse.php
+FallbackRemoteGetRequest.php    StubbedRemoteGetRequest.php
+FilesystemRemoteGetRequest.php  TemporaryFileCachedRemoteGetRequest.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator:
+Context.php            ValidateTagResult.php          ValidationSeverity.php
+ErrorCode.php          ValidationEngine.php           ValidationStatus.php
+ExtensionsContext.php  ValidationError.php            ValidatorRules.php
+FilePosition.php       ValidationErrorCollection.php  ValueSetProvision.php
+Spec/                  ValidationHandler.php          ValueSetRequirement.php
+Spec.php               ValidationResult.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec:
+AggregateTag.php                   DocRuleset.php
+AggregateTagWithExtensionSpec.php  Error/
+AttributeList/                     Error.php
+AttributeList.php                  Identifiable.php
+CssRuleset/                        IterableSection.php
+CssRuleset.php                     Iteration.php
+DeclarationList/                   Section/
+DeclarationList.php                SpecRule.php
+DescendantTagList/                 Tag/
+DescendantTagList.php              Tag.php
+DocRuleset/                        TagWithExtensionSpec.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/AttributeList:
+AmpAudioCommon.php
+AmpBaseCarouselCommon.php
+AmpCarouselCommon.php
+AmpDatePickerCommonAttributes.php
+AmpDatePickerOverlayModeAttributes.php
+AmpDatePickerRangeTypeAttributes.php
+AmpDatePickerSingleTypeAttributes.php
+AmpDatePickerStaticModeAttributes.php
+AmpFacebook.php
+AmpFacebookStrict.php
+AmpInputmaskCommonAttr.php
+AmpLayoutAttrs.php
+AmpMegaphoneCommon.php
+AmpNestedMenuActions.php
+AmpStreamGalleryCommon.php
+AmpVideoCommon.php
+AmpVideoIframeCommon.php
+AmphtmlEngineAttrs.php
+AmphtmlModuleEngineAttrs.php
+AmphtmlNomoduleEngineAttrs.php
+CiteAttr.php
+ClickAttributions.php
+CommonExtensionAttrs.php
+CommonLinkAttrs.php
+ExtendedAmpGlobal.php
+FormNameAttr.php
+GlobalAttrs.php
+ImgAttrs.php
+InputCommonAttr.php
+InteractiveOptionsConfettiAttrs.php
+InteractiveOptionsImgAttrs.php
+InteractiveOptionsResultsCategoryAttrs.php
+InteractiveOptionsTextAttrs.php
+InteractiveSharedConfigsAttrs.php
+LightboxableElements.php
+MandatoryIdAttr.php
+MandatoryNameAttr.php
+MandatorySrcAmp4email.php
+MandatorySrcOrSrcset.php
+NameAttr.php
+NonceAttr.php
+OptionalSrcAmp4email.php
+PooolAccessAttrs.php
+PrivateClickMeasurementAttributes.php
+SvgConditionalProcessingAttributes.php
+SvgCoreAttributes.php
+SvgFilterPrimitiveAttributes.php
+SvgPresentationAttributes.php
+SvgStyleAttr.php
+SvgTransferFunctionAttributes.php
+SvgXlinkAttributes.php
+TrackAttrsNoSubtitles.php
+TrackAttrsSubtitles.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/CssRuleset:
+Amp4ads.php                 Amp4emailNoDataCssStrict.php  AmpTransformed.php
+Amp4emailDataCssStrict.php  AmpNoTransformed.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/DeclarationList:
+BasicDeclarations.php  EmailSpecificDeclarations.php  SvgBasicDeclarations.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/DescendantTagList:
+AmpMegaMenuAllowedDescendants.php
+AmpNestedMenuAllowedDescendants.php
+AmpStoryBookendAllowedDescendants.php
+AmpStoryCtaLayerAllowedDescendants.php
+AmpStoryGridLayerAllowedDescendants.php
+AmpStoryPageAttachmentAllowedDescendants.php
+AmpStoryPlayerAllowedDescendants.php
+AmpStorySocialShareAllowedDescendants.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/DocRuleset:
+Amp4email.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/Error:
+AmpEmailMissingStrictCssAttr.php
+AttrDisallowedByImpliedLayout.php
+AttrDisallowedBySpecifiedLayout.php
+AttrMissingRequiredExtension.php
+AttrRequiredButMissing.php
+AttrValueRequiredByLayout.php
+BaseTagMustPreceedAllUrls.php
+CdataViolatesDenylist.php
+ChildTagDoesNotSatisfyReferencePoint.php
+ChildTagDoesNotSatisfyReferencePointSingular.php
+CssExcessivelyNested.php
+CssSyntaxBadUrl.php
+CssSyntaxDisallowedAttrSelector.php
+CssSyntaxDisallowedDomain.php
+CssSyntaxDisallowedImportant.php
+CssSyntaxDisallowedKeyframeInsideKeyframe.php
+CssSyntaxDisallowedMediaFeature.php
+CssSyntaxDisallowedMediaType.php
+CssSyntaxDisallowedPropertyValue.php
+CssSyntaxDisallowedPropertyValueWithHint.php
+CssSyntaxDisallowedPseudoClass.php
+CssSyntaxDisallowedPseudoElement.php
+CssSyntaxDisallowedQualifiedRuleMustBeInsideKeyframe.php
+CssSyntaxDisallowedRelativeUrl.php
+CssSyntaxEofInPreludeOfQualifiedRule.php
+CssSyntaxErrorInPseudoSelector.php
+CssSyntaxIncompleteDeclaration.php
+CssSyntaxInvalidAtRule.php
+CssSyntaxInvalidAttrSelector.php
+CssSyntaxInvalidDeclaration.php
+CssSyntaxInvalidProperty.php
+CssSyntaxInvalidPropertyNolist.php
+CssSyntaxInvalidUrl.php
+CssSyntaxInvalidUrlProtocol.php
+CssSyntaxMalformedMediaQuery.php
+CssSyntaxMissingSelector.php
+CssSyntaxMissingUrl.php
+CssSyntaxNotASelectorStart.php
+CssSyntaxPropertyDisallowedTogetherWith.php
+CssSyntaxPropertyDisallowedWithinAtRule.php
+CssSyntaxPropertyRequiresQualification.php
+CssSyntaxQualifiedRuleHasNoDeclarations.php
+CssSyntaxStrayTrailingBackslash.php
+CssSyntaxUnparsedInputRemainsInSelector.php
+CssSyntaxUnterminatedComment.php
+CssSyntaxUnterminatedString.php
+DeprecatedAttr.php
+DeprecatedTag.php
+DevModeOnly.php
+DisallowedAmpDomain.php
+DisallowedAttr.php
+DisallowedChildTagName.php
+DisallowedDomain.php
+DisallowedFirstChildTagName.php
+DisallowedManufacturedBody.php
+DisallowedPropertyInAttrValue.php
+DisallowedRelativeUrl.php
+DisallowedScriptTag.php
+DisallowedStyleAttr.php
+DisallowedTag.php
+DisallowedTagAncestor.php
+DocumentSizeLimitExceeded.php
+DocumentTooComplex.php
+DuplicateAttribute.php
+DuplicateDimension.php
+DuplicateReferencePoint.php
+DuplicateUniqueTag.php
+DuplicateUniqueTagWarning.php
+ExtensionUnused.php
+GeneralDisallowedTag.php
+ImpliedLayoutInvalid.php
+InconsistentUnitsForWidthAndHeight.php
+IncorrectMinNumChildTags.php
+IncorrectNumChildTags.php
+IncorrectScriptReleaseVersion.php
+InlineScriptTooLong.php
+InlineStyleTooLong.php
+InvalidAttrValue.php
+InvalidDoctypeHtml.php
+InvalidExtensionPath.php
+InvalidExtensionVersion.php
+InvalidJsonCdata.php
+InvalidPropertyValueInAttrValue.php
+InvalidUrl.php
+InvalidUrlProtocol.php
+InvalidUtf8.php
+LtsScriptAfterNonLts.php
+MandatoryAnyofAttrMissing.php
+MandatoryAttrMissing.php
+MandatoryCdataMissingOrIncorrect.php
+MandatoryLastChildTag.php
+MandatoryOneofAttrMissing.php
+MandatoryPropertyMissingFromAttrValue.php
+MandatoryReferencePointMissing.php
+MandatoryTagAncestor.php
+MandatoryTagAncestorWithHint.php
+MandatoryTagMissing.php
+MissingLayoutAttributes.php
+MissingRequiredExtension.php
+MissingUrl.php
+MutuallyExclusiveAttrs.php
+NonLtsScriptAfterLts.php
+NonWhitespaceCdataEncountered.php
+SpecifiedLayoutInvalid.php
+StylesheetAndInlineStyleTooLong.php
+StylesheetTooLong.php
+TagExcludedByTag.php
+TagNotAllowedToHaveSiblings.php
+TagReferencePointConflict.php
+TagRequiredByMissing.php
+TemplateInAttrName.php
+TemplatePartialInAttrValue.php
+UnescapedTemplateInAttrValue.php
+UnknownCode.php
+ValueSetMismatch.php
+WarningExtensionDeprecatedVersion.php
+WarningExtensionUnused.php
+WarningTagRequiredByMissing.php
+WrongParentTag.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/Section:
+AttributeLists.php  DeclarationLists.php    DocRulesets.php  Tags.php
+CssRulesets.php     DescendantTagLists.php  Errors.php
+
+./amp/includes/libs/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/Tag:
+A.php
+AAmp4email.php
+Abbr.php
+Acronym.php
+Address.php
+Amp3dGltf.php
+Amp3qPlayer.php
+Amp4adsEngineScript.php
+AmpAccessExtensionJsonScript.php
+AmpAccordion.php
+AmpAccordionSection.php
+AmpActionMacro.php
+AmpAd.php
+AmpAdCustom.php
+AmpAdExit.php
+AmpAdExitConfigurationJson.php
+AmpAdExtensionScript.php
+AmpAdWithDataEnableRefreshAttribute.php
+AmpAdWithDataMultiSizeAttribute.php
+AmpAdWithTypeCustom.php
+AmpAddthis.php
+AmpAnalytics.php
+AmpAnalyticsExtensionJsonScript.php
+AmpAnim.php
+AmpAnimAmp4email.php
+AmpAnimExtensionScriptAmp4email.php
+AmpAnimation.php
+AmpAnimationExtensionJsonScript.php
+AmpApesterMedia.php
+AmpAppBanner.php
+AmpAppBannerButtonOpenButton.php
+AmpAudio.php
+AmpAudioA4a.php
+AmpAudioSource.php
+AmpAudioTrack.php
+AmpAudioTrackKindSubtitles.php
+AmpAutoAds.php
+AmpAutocomplete.php
+AmpAutocompleteAmp4email.php
+AmpAutocompleteInput.php
+AmpAutocompleteJson.php
+AmpBaseCarousel.php
+AmpBaseCarouselLightbox.php
+AmpBaseCarouselLightboxChild.php
+AmpBaseCarouselLightboxLightboxExclude.php
+AmpBeopinion.php
+AmpBindExtensionJsonScript.php
+AmpBindMacro.php
+AmpBodymovinAnimation.php
+AmpBridPlayer.php
+AmpBrightcove.php
+AmpBysideContent.php
+AmpCallTracking.php
+AmpCarousel.php
+AmpCarouselLightbox.php
+AmpCarouselLightboxChild.php
+AmpCarouselLightboxLightboxExclude.php
+AmpConnatixPlayer.php
+AmpConsent.php
+AmpConsentExtensionJsonScript.php
+AmpConsentType.php
+AmpDailymotion.php
+AmpDateCountdown.php
+AmpDateDisplay.php
+AmpDatePickerTemplateDateTemplate.php
+AmpDatePickerTemplateInfoTemplate.php
+AmpDatePickerTypeRangeModeOverlay.php
+AmpDatePickerTypeRangeModeStatic.php
+AmpDatePickerTypeSingleModeOverlay.php
+AmpDatePickerTypeSingleModeStatic.php
+AmpDelightPlayer.php
+AmpEmbed.php
+AmpEmbedWithDataMultiSizeAttribute.php
+AmpEmbedlyCard.php
+AmpEmbedlyKey.php
+AmpExperiment.php
+AmpExperimentExtensionJsonScript.php
+AmpExperimentStoryExtensionJsonScript.php
+AmpFacebook.php
+AmpFacebook10.php
+AmpFacebookComments.php
+AmpFacebookComments10.php
+AmpFacebookLike.php
+AmpFacebookLike10.php
+AmpFacebookPage.php
+AmpFacebookPage10.php
+AmpFitText.php
+AmpFont.php
+AmpFxFlyingCarpet.php
+AmpGeo.php
+AmpGeoExtensionJsonScript.php
+AmpGfycat.php
+AmpGist.php
+AmpGoogleDocumentEmbed.php
+AmpGoogleReadAloudPlayer.php
+AmpGwdAnimation.php
+AmpHulu.php
+AmpIframe.php
+AmpIframely.php
+AmpImaVideo.php
+AmpImaVideoScriptTypeApplicationJson.php
+AmpImaVideoSource.php
+AmpImaVideoTrack.php
+AmpImaVideoTrackKindSubtitles.php
+AmpImageLightbox.php
+AmpImageSlider.php
+AmpImageSliderDivFirst.php
+AmpImageSliderDivSecond.php
+AmpImageSliderTransformed.php
+AmpImg.php
+AmpImgAmp4email.php
+AmpImgImgPlaceholderTransformed.php
+AmpImgImgTransformed.php
+AmpImgTransformed.php
+AmpImgur.php
+AmpInlineGallery.php
+AmpInlineGalleryPagination.php
+AmpInlineGalleryPaginationInset.php
+AmpInlineGalleryThumbnails.php
+AmpInstagram.php
+AmpInstallServiceworker.php
+AmpIzlesene.php
+AmpJwplayer.php
+AmpKalturaPlayer.php
+AmpLayout.php
+AmpLightbox.php
+AmpLightboxAmp4ads.php
+AmpLinkRewriter.php
+AmpLinkRewriterExtensionJsonScript.php
+AmpList.php
+AmpListAmp4email.php
+AmpListDivFetchError.php
+AmpListLoadMore.php
+AmpListLoadMoreButtonLoadMoreClickable.php
+AmpLiveList.php
+AmpLiveListItems.php
+AmpLiveListItemsItem.php
+AmpLiveListPagination.php
+AmpLiveListUpdate.php
+AmpMathml.php
+AmpMegaMenu.php
+AmpMegaMenuAmpList.php
+AmpMegaMenuAmpListTemplate.php
+AmpMegaMenuItemContent.php
+AmpMegaMenuItemHeading.php
+AmpMegaMenuNav.php
+AmpMegaMenuNavUlOl.php
+AmpMegaMenuNavUlOlLi.php
+AmpMegaphoneDataEpisode.php
+AmpMegaphoneDataPlaylist.php
+AmpMinuteMediaPlayer.php
+AmpMowplayer.php
+AmpNestedMenu.php
+AmpNextPageFooter.php
+AmpNextPageRecommendationBox.php
+AmpNextPageScriptTypeApplicationJson.php
+AmpNextPageSeparator.php
+AmpNextPageTypeAdsense.php
+AmpNextPageWithInlineConfig.php
+AmpNextPageWithSrcAttribute.php
+AmpNexxtvPlayer.php
+AmpO2Player.php
+AmpOnetapGoogle.php
+AmpOoyalaPlayer.php
+AmpOrientationObserver.php
+AmpPanZoom.php
+AmpPinterest.php
+AmpPixel.php
+AmpPlaybuzz.php
+AmpPositionObserver.php
+AmpPowrPlayer.php
+AmpReachPlayer.php
+AmpRecaptchaInput.php
+AmpRedbullPlayer.php
+AmpReddit.php
+AmpRender.php
+AmpRiddleQuiz.php
+AmpScript.php
+AmpScriptExtensionLocalScript.php
+AmpSelector.php
+AmpSelectorChild.php
+AmpSelectorOption.php
+AmpSidebar.php
+AmpSidebarAmp4email.php
+AmpSidebarNav.php
+AmpSkimlinks.php
+AmpSmartlinks.php
+AmpSocialShare.php
+AmpSoundcloud.php
+AmpSpringboardPlayer.php
+AmpState.php
+AmpStateAmp4email.php
+AmpStickyAd.php
+AmpStory.php
+AmpStory360.php
+AmpStoryAmpAudio.php
+AmpStoryAmpSidebar.php
+AmpStoryAmpStoryPageAttachmentAmpVideo.php
+AmpStoryAmpVideo.php
+AmpStoryAnimation.php
+AmpStoryAnimationJsonScript.php
+AmpStoryAutoAds.php
+AmpStoryAutoAdsConfigScript.php
+AmpStoryAutoAdsTemplate.php
+AmpStoryAutoAnalytics.php
+AmpStoryBookend.php
+AmpStoryBookendExtensionJsonScript.php
+AmpStoryCaptions.php
+AmpStoryConsent.php
+AmpStoryConsentExtensionJsonScript.php
+AmpStoryCtaLayer.php
+AmpStoryCtaLayerAnimateIn.php
+AmpStoryGridLayer.php
+AmpStoryGridLayerAnimateIn.php
+AmpStoryGridLayerDefault.php
+AmpStoryInteractiveBinaryPoll.php
+AmpStoryInteractiveImgPoll.php
+AmpStoryInteractiveImgQuiz.php
+AmpStoryInteractivePoll.php
+AmpStoryInteractiveQuiz.php
+AmpStoryInteractiveResults.php
+AmpStoryPage.php
+AmpStoryPageAttachment.php
+AmpStoryPageAttachmentHref.php
+AmpStoryPageOutlink.php
+AmpStoryPanningMedia.php
+AmpStoryPlayer.php
+AmpStoryPlayerImg.php
+AmpStoryShoppingAttachment.php
+AmpStoryShoppingConfig.php
+AmpStoryShoppingTag.php
+AmpStorySocialShare.php
+AmpStorySocialShareExtensionJsonScript.php
+AmpStorySubscriptions.php
+AmpStreamGallery.php
+AmpSubscriptionsExtensionJsonScript.php
+AmpTiktok.php
+AmpTiktokBlockquote.php
+AmpTimeago.php
+AmpTruncateText.php
+AmpTwitter.php
+AmpUserNotification.php
+AmpVideo.php
+AmpVideoIframe.php
+AmpVideoIframeTransformed.php
+AmpVideoSource.php
+AmpVideoTrack.php
+AmpVideoTrackKindSubtitles.php
+AmpVimeo.php
+AmpVine.php
+AmpViqeoPlayer.php
+AmpVk.php
+AmpWebPush.php
+AmpWebPushWidget.php
+AmpWistiaPlayer.php
+AmpWordpressEmbed.php
+AmpYotpo.php
+AmpYoutube.php
+AmphtmlEngineScript.php
+AmphtmlEngineScriptAmp4email.php
+AmphtmlEngineScriptLts.php
+AmphtmlEngineScriptLtsTransformed.php
+AmphtmlEngineScriptTransformed.php
+AmphtmlModuleEngineScript.php
+AmphtmlModuleLtsEngineScript.php
+AmphtmlNomoduleEngineScript.php
+AmphtmlNomoduleLtsEngineScript.php
+Article.php
+Aside.php
+Audio.php
+AudioSource.php
+AudioTrack.php
+AudioTrackKindSubtitles.php
+B.php
+Base.php
+Bdi.php
+Bdo.php
+Big.php
+Blockquote.php
+BlockquoteWithTiktok.php
+Body.php
+Br.php
+Button.php
+ButtonAmpNestedMenu.php
+Canvas.php
+Caption.php
+Center.php
+Circle.php
+Cite.php
+Clippath.php
+Code.php
+Col.php
+Colgroup.php
+CryptokeysJsonScript.php
+Data.php
+Datalist.php
+Dd.php
+Defs.php
+Del.php
+Desc.php
+Details.php
+Dfn.php
+Dir.php
+Div.php
+DivAmpNestedMenu.php
+Dl.php
+Dt.php
+Ellipse.php
+Em.php
+Feblend.php
+Fecolormatrix.php
+Fecomponenttransfer.php
+Fecomposite.php
+Feconvolvematrix.php
+Fediffuselighting.php
+Fedisplacementmap.php
+Fedistantlight.php
+Fedropshadow.php
+Feflood.php
+Fefunca.php
+Fefuncb.php
+Fefuncg.php
+Fefuncr.php
+Fegaussianblur.php
+Femerge.php
+Femergenode.php
+Femorphology.php
+Feoffset.php
+Fepointlight.php
+Fespecularlighting.php
+Fespotlight.php
+Fetile.php
+Feturbulence.php
+Fieldset.php
+Figcaption.php
+Figure.php
+Filter.php
+Footer.php
+FormDivSubmitError.php
+FormDivSubmitErrorTemplate.php
+FormDivSubmitSuccess.php
+FormDivSubmitSuccessTemplate.php
+FormDivSubmitting.php
+FormDivSubmittingTemplate.php
+FormDivVerifyError.php
+FormDivVerifyErrorTemplate.php
+FormMethodGet.php
+FormMethodGetAmp4email.php
+FormMethodPost.php
+FormMethodPostAmp4email.php
+G.php
+Glyph.php
+Glyphref.php
+H1.php
+H2.php
+H2AmpNestedMenu.php
+H3.php
+H3AmpNestedMenu.php
+H4.php
+H4AmpNestedMenu.php
+H5.php
+H5AmpNestedMenu.php
+H6.php
+H6AmpNestedMenu.php
+Head.php
+HeadStyleAmp4adsBoilerplate.php
+HeadStyleAmp4emailBoilerplate.php
+HeadStyleAmpBoilerplate.php
+Header.php
+HeroImage.php
+HeroImg.php
+Hgroup.php
+Hkern.php
+Hr.php
+Html.php
+HtmlDoctype.php
+HtmlDoctypeAmp4ads.php
+HtmlTransformed.php
+I.php
+IAmphtmlSizerIntrinsic.php
+IAmphtmlSizerResponsive.php
+Iframe.php
+Image.php
+ImageUsingSrcset.php
+ImgIAmphtmlIntrinsicSizer.php
+ImgIAmphtmlIntrinsicSizerAmpStoryPlayer.php
+ImgUsingSrcset.php
+Input.php
+InputMaskCustomMask.php
+InputMaskDateDdMmYyyy.php
+InputMaskDateMmDdYyyy.php
+InputMaskDateMmYy.php
+InputMaskDateYyyyMmDd.php
+InputMaskPaymentCard.php
+InputTypeFile.php
+InputTypeImage.php
+InputTypePassword.php
+Ins.php
+Kbd.php
+Label.php
+Legend.php
+Li.php
+Line.php
+Lineargradient.php
+LineargradientStop.php
+LinkItemprop.php
+LinkItempropSameas.php
+LinkProperty.php
+LinkRel.php
+LinkRelCanonical.php
+LinkRelManifest.php
+LinkRelModulepreload.php
+LinkRelPreload.php
+LinkRelStylesheetForAmpStory10Css.php
+LinkRelStylesheetForFonts.php
+Listing.php
+Main.php
+Mark.php
+Marker.php
+Mask.php
+MetaCharsetUtf8.php
+MetaHttpEquivContentLanguage.php
+MetaHttpEquivContentScriptType.php
+MetaHttpEquivContentStyleType.php
+MetaHttpEquivContentType.php
+MetaHttpEquivImagetoolbar.php
+MetaHttpEquivOriginTrial.php
+MetaHttpEquivPicsLabel.php
+MetaHttpEquivResourceType.php
+MetaHttpEquivXDnsPrefetchControl.php
+MetaHttpEquivXUaCompatible.php
+MetaNameAmp3pIframeSrc.php
+MetaNameAmp4adsId.php
+MetaNameAmp4adsVars.php
+MetaNameAmpAdDoubleclickSra.php
+MetaNameAmpAdEnableRefresh.php
+MetaNameAmpConsentBlocking.php
+MetaNameAmpCtaLandingPageType.php
+MetaNameAmpCtaType.php
+MetaNameAmpCtaUrl.php
+MetaNameAmpExperimentToken.php
+MetaNameAmpExperimentsOptIn.php
+MetaNameAmpGoogleClientidIdApi.php
+MetaNameAmpLinkVariableAllowedOrigin.php
+MetaNameAmpListLoadMore.php
+MetaNameAmpRecaptchaInput.php
+MetaNameAmpScriptSrc.php
+MetaNameAmpStoryGeneratorName.php
+MetaNameAmpStoryGeneratorVersion.php
+MetaNameAmpToAmpNavigation.php
+MetaNameAndContent.php
+MetaNameAppleItunesApp.php
+MetaNameViewport.php
+Metadata.php
+Meter.php
+Multicol.php
+Nav.php
+Nextid.php
+Nobr.php
+Noscript.php
+NoscriptEnclosureForAmpStyleTags.php
+NoscriptImg.php
+NoscriptStyleAmpBoilerplate.php
+OP.php
+Ol.php
+Optgroup.php
+Option.php
+Output.php
+P.php
+Path.php
+Pattern.php
+Picture.php
+PictureSource.php
+Polygon.php
+Polyline.php
+Pre.php
+Progress.php
+Q.php
+Radialgradient.php
+RadialgradientStop.php
+Rb.php
+Rect.php
+Rp.php
+Rt.php
+Rtc.php
+Ruby.php
+S.php
+Samp.php
+ScriptAmp3dGltf.php
+ScriptAmp3qPlayer.php
+ScriptAmpAccess.php
+ScriptAmpAccessFewcents.php
+ScriptAmpAccessLaterpay.php
+ScriptAmpAccessPoool.php
+ScriptAmpAccessScroll.php
+ScriptAmpAccordion.php
+ScriptAmpAccordion2.php
+ScriptAmpActionMacro.php
+ScriptAmpAdCustom.php
+ScriptAmpAdExit.php
+ScriptAmpAddthis.php
+ScriptAmpAnalytics.php
+ScriptAmpAnim.php
+ScriptAmpAnimation.php
+ScriptAmpApesterMedia.php
+ScriptAmpAppBanner.php
+ScriptAmpAudio.php
+ScriptAmpAutoAds.php
+ScriptAmpAutocomplete.php
+ScriptAmpBaseCarousel.php
+ScriptAmpBeopinion.php
+ScriptAmpBind.php
+ScriptAmpBodymovinAnimation.php
+ScriptAmpBridPlayer.php
+ScriptAmpBrightcove.php
+ScriptAmpBrightcove2.php
+ScriptAmpBysideContent.php
+ScriptAmpCacheUrl.php
+ScriptAmpCallTracking.php
+ScriptAmpCarousel.php
+ScriptAmpConnatixPlayer.php
+ScriptAmpConsent.php
+ScriptAmpDailymotion.php
+ScriptAmpDailymotion2.php
+ScriptAmpDateCountdown.php
+ScriptAmpDateDisplay.php
+ScriptAmpDatePicker.php
+ScriptAmpDelightPlayer.php
+ScriptAmpDynamicCssClasses.php
+ScriptAmpEmbedlyCard.php
+ScriptAmpExperiment.php
+ScriptAmpFacebook.php
+ScriptAmpFacebookComments.php
+ScriptAmpFacebookLike.php
+ScriptAmpFacebookPage.php
+ScriptAmpFitText.php
+ScriptAmpFitText2.php
+ScriptAmpFont.php
+ScriptAmpForm.php
+ScriptAmpFxCollection.php
+ScriptAmpFxFlyingCarpet.php
+ScriptAmpGeo.php
+ScriptAmpGfycat.php
+ScriptAmpGist.php
+ScriptAmpGoogleDocumentEmbed.php
+ScriptAmpGoogleReadAloudPlayer.php
+ScriptAmpGwdAnimation.php
+ScriptAmpHulu.php
+ScriptAmpIframe.php
+ScriptAmpIframe2.php
+ScriptAmpIframely.php
+ScriptAmpImaVideo.php
+ScriptAmpImageLightbox.php
+ScriptAmpImageSlider.php
+ScriptAmpImgur.php
+ScriptAmpInlineGallery.php
+ScriptAmpInputmask.php
+ScriptAmpInstagram.php
+ScriptAmpInstagram2.php
+ScriptAmpInstallServiceworker.php
+ScriptAmpIzlesene.php
+ScriptAmpJwplayer.php
+ScriptAmpKalturaPlayer.php
+ScriptAmpLightbox.php
+ScriptAmpLightbox2.php
+ScriptAmpLightboxGallery.php
+ScriptAmpLinkRewriter.php
+ScriptAmpList.php
+ScriptAmpLiveList.php
+ScriptAmpMathml.php
+ScriptAmpMathml2.php
+ScriptAmpMegaMenu.php
+ScriptAmpMegaphone.php
+ScriptAmpMinuteMediaPlayer.php
+ScriptAmpMowplayer.php
+ScriptAmpMraid.php
+ScriptAmpMustache.php
+ScriptAmpNestedMenu.php
+ScriptAmpNextPage.php
+ScriptAmpNexxtvPlayer.php
+ScriptAmpO2Player.php
+ScriptAmpOnerrorV0Js.php
+ScriptAmpOnerrorV0JsOrV0Mjs.php
+ScriptAmpOnetapGoogle.php
+ScriptAmpOoyalaPlayer.php
+ScriptAmpOrientationObserver.php
+ScriptAmpPanZoom.php
+ScriptAmpPinterest.php
+ScriptAmpPlaybuzz.php
+ScriptAmpPositionObserver.php
+ScriptAmpPowrPlayer.php
+ScriptAmpReachPlayer.php
+ScriptAmpRecaptchaInput.php
+ScriptAmpRedbullPlayer.php
+ScriptAmpReddit.php
+ScriptAmpRender.php
+ScriptAmpRiddleQuiz.php
+ScriptAmpScript.php
+ScriptAmpSelector.php
+ScriptAmpSelector2.php
+ScriptAmpSidebar.php
+ScriptAmpSidebar2.php
+ScriptAmpSkimlinks.php
+ScriptAmpSlides.php
+ScriptAmpSmartlinks.php
+ScriptAmpSocialShare.php
+ScriptAmpSocialShare2.php
+ScriptAmpSoundcloud.php
+ScriptAmpSoundcloud2.php
+ScriptAmpSpringboardPlayer.php
+ScriptAmpStickyAd.php
+ScriptAmpStory.php
+ScriptAmpStory360.php
+ScriptAmpStoryAutoAds.php
+ScriptAmpStoryAutoAnalytics.php
+ScriptAmpStoryCaptions.php
+ScriptAmpStoryDvhPolyfill.php
+ScriptAmpStoryInteractive.php
+ScriptAmpStoryPanningMedia.php
+ScriptAmpStoryPlayer.php
+ScriptAmpStoryShopping.php
+ScriptAmpStorySubscriptions.php
+ScriptAmpStreamGallery.php
+ScriptAmpSubscriptions.php
+ScriptAmpSubscriptionsGoogle.php
+ScriptAmpTiktok.php
+ScriptAmpTimeago.php
+ScriptAmpTruncateText.php
+ScriptAmpTwitter.php
+ScriptAmpTwitter2.php
+ScriptAmpUserNotification.php
+ScriptAmpVideo.php
+ScriptAmpVideo2.php
+ScriptAmpVideoDocking.php
+ScriptAmpVideoIframe.php
+ScriptAmpVideoIframe2.php
+ScriptAmpVimeo.php
+ScriptAmpVimeo2.php
+ScriptAmpVine.php
+ScriptAmpViqeoPlayer.php
+ScriptAmpVk.php
+ScriptAmpWebPush.php
+ScriptAmpWistiaPlayer.php
+ScriptAmpWordpressEmbed.php
+ScriptAmpYotpo.php
+ScriptAmpYoutube.php
+ScriptAmpYoutube2.php
+ScriptCustomElementAmpAccordionAmp4email.php
+ScriptCustomElementAmpAutocompleteAmp4email.php
+ScriptCustomElementAmpBindAmp4email.php
+ScriptCustomElementAmpCarouselAmp4email.php
+ScriptCustomElementAmpFitTextAmp4email.php
+ScriptCustomElementAmpFormAmp4email.php
+ScriptCustomElementAmpImageLightboxAmp4email.php
+ScriptCustomElementAmpLightboxAmp4ads.php
+ScriptCustomElementAmpLightboxAmp4email.php
+ScriptCustomElementAmpListAmp4email.php
+ScriptCustomElementAmpSelectorAmp4email.php
+ScriptCustomElementAmpSidebarAmp4email.php
+ScriptCustomElementAmpTimeagoAmp4email.php
+ScriptCustomTemplateAmpMustacheAmp4ads.php
+ScriptCustomTemplateAmpMustacheAmp4email.php
+ScriptIdAmpRtc.php
+ScriptTypeApplicationLdJson.php
+ScriptTypeTextPlain.php
+ScriptTypeTextPlainAmp4email.php
+Section.php
+SectionAmp4email.php
+Select.php
+Slot.php
+Small.php
+Solidcolor.php
+Spacer.php
+Span.php
+SpanAmpNestedMenu.php
+SpanSwgAmpCacheNonce.php
+StandardImage.php
+StandardImg.php
+Strike.php
+Strong.php
+StyleAmpCustom.php
+StyleAmpCustomAmp4ads.php
+StyleAmpCustomAmp4email.php
+StyleAmpCustomCssStrict.php
+StyleAmpCustomLengthCheck.php
+StyleAmpKeyframes.php
+StyleAmpNoscript.php
+StyleAmpRuntimeTransformed.php
+Sub.php
+SubscriptionsScriptCiphertext.php
+SubscriptionsSectionContentSwgAmpCacheNonce.php
+Summary.php
+Sup.php
+Svg.php
+SvgTitle.php
+Switch_.php
+Symbol.php
+Table.php
+Tbody.php
+Td.php
+Template.php
+TemplateAmp4email.php
+Text.php
+Textarea.php
+Textpath.php
+Tfoot.php
+Th.php
+Thead.php
+Time.php
+Title.php
+TitleAmp4email.php
+Tr.php
+Tref.php
+Tspan.php
+Tt.php
+U.php
+Ul.php
+Use_.php
+Var_.php
+Video.php
+VideoSource.php
+VideoTrack.php
+VideoTrackKindSubtitles.php
+View.php
+Vkern.php
+Wbr.php
+
+./amp/includes/libs/amp/vendor/composer:
+ClassLoader.php        autoload_files.php       autoload_static.php
+InstalledVersions.php  autoload_namespaces.php  installed.json
+LICENSE                autoload_psr4.php        installed.php
+autoload_classmap.php  autoload_real.php        platform_check.php
+
+./amp/includes/libs/amp/vendor/fasterimage:
+fasterimage/
+
+./amp/includes/libs/amp/vendor/fasterimage/fasterimage:
+src/
+
+./amp/includes/libs/amp/vendor/fasterimage/fasterimage/src:
+FasterImage/
+
+./amp/includes/libs/amp/vendor/fasterimage/fasterimage/src/FasterImage:
+Exception/  ExifParser.php  FasterImage.php  ImageParser.php
+
+./amp/includes/libs/amp/vendor/fasterimage/fasterimage/src/FasterImage/Exception:
+InvalidImageException.php
+
+./amp/includes/libs/amp/vendor/sabberworm:
+php-css-parser/
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser:
+src/
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src:
+CSSList/          OutputFormatter.php  Property/       RuleSet/
+Comment/          Parser.php           Renderable.php  Settings.php
+OutputFormat.php  Parsing/             Rule/           Value/
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/CSSList:
+AtRuleBlockList.php  CSSBlockList.php  CSSList.php  Document.php  KeyFrame.php
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/Comment:
+Comment.php  Commentable.php
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/Parsing:
+Anchor.php           ParserState.php      UnexpectedEOFException.php
+OutputException.php  SourceException.php  UnexpectedTokenException.php
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/Property:
+AtRule.php        Charset.php  KeyframeSelector.php
+CSSNamespace.php  Import.php   Selector.php
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/Rule:
+Rule.php
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/RuleSet:
+AtRuleSet.php  DeclarationBlock.php  RuleSet.php
+
+./amp/includes/libs/amp/vendor/sabberworm/php-css-parser/src/Value:
+CSSFunction.php        Color.php           RuleValueList.php  ValueList.php
+CSSString.php          Expression.php      Size.php
+CalcFunction.php       LineName.php        URL.php
+CalcRuleValueList.php  PrimitiveValue.php  Value.php
+
+./amp/includes/libs/amp/vendor/willwashburn:
+stream/
+
+./amp/includes/libs/amp/vendor/willwashburn/stream:
+src/
+
+./amp/includes/libs/amp/vendor/willwashburn/stream/src:
+Stream/
+
+./amp/includes/libs/amp/vendor/willwashburn/stream/src/Stream:
+Exception/  Stream.php  StreamableInterface.php
+
+./amp/includes/libs/amp/vendor/willwashburn/stream/src/Stream/Exception:
+StreamBufferTooSmallException.php
+
+./amp/public:
+assets/                   class-compatibility.php  class-public.php
+class-advertisements.php  class-gdprconsent.php    index.php
+class-analytics.php       class-general.php        partials/
+
+./amp/public/assets:
+css/
+
+./amp/public/assets/css:
+style-amp.css  style-amp.min.css
+
+./amp/public/partials:
+display-alexametrics.php        display-histatsanalytics.php
+display-chartbeatanalytics.php  display-segmentanalytics.php
+display-clickyanalytics.php     display-statcounter.php
+display-cookienotice.php        display-yandexmetrika.php
+display-facebookpixel.php       index.php
+display-googleanalytics.php
+
+./fbia:
+admin/  includes/  public/
+
+./fbia/admin:
+assets/          class-advertisements.php  class-feed.php     index.php
+class-admin.php  class-analytics.php       class-general.php  templates/
+
+./fbia/admin/assets:
+css/  js/
+
+./fbia/admin/assets/css:
+style-fbia.css  style-fbia.min.css
+
+./fbia/admin/assets/js:
+script-fbia.js  script-fbia.min.js
+
+./fbia/admin/templates:
+index.php                   subpage-analytics.php  subpage-general.php
+subpage-advertisements.php  subpage-feed.php
+
+./fbia/includes:
+class-plugin.php  index.php  libs/
+
+./fbia/includes/libs:
+composer.json  composer.lock  index.php  rules-configuration.json  vendor/
+
+./fbia/includes/libs/vendor:
+autoload.php  composer/  facebook/  symfony/
+
+./fbia/includes/libs/vendor/composer:
+ClassLoader.php        autoload_files.php       autoload_static.php
+InstalledVersions.php  autoload_namespaces.php  installed.json
+LICENSE                autoload_psr4.php        installed.php
+autoload_classmap.php  autoload_real.php        platform_check.php
+
+./fbia/includes/libs/vendor/facebook:
+facebook-instant-articles-sdk-php/  graph-sdk/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php:
+CODE_OF_CONDUCT.md  README.md           docs/        src/
+CONTRIBUTING.md     composer.json       phpcs.xml    tests/
+LICENSE             docker-compose.yml  phpunit.xml
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/docs:
+QuickStart.md
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src:
+Facebook/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook:
+InstantArticles/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles:
+Client/  Elements/  Parser/  Transformer/  Validators/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Client:
+Client.php           Helper.php                ServerMessage.php
+ClientException.php  InstantArticleStatus.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Elements:
+Ad.php                 Emphasized.php               ListItem.php
+Analytics.php          Footer.php                   Map.php
+Anchor.php             FormattedText.php            Paragraph.php
+AnimatedGIF.php        GeoTag.php                   Pullquote.php
+Audible.php            H1.php                       RelatedArticles.php
+Audio.php              H2.php                       RelatedItem.php
+Author.php             H3.php                       Slideshow.php
+Blockquote.php         Header.php                   Small.php
+Bold.php               Image.php                    SocialEmbed.php
+Caption.php            InstantArticle.php           Span.php
+ChildrenContainer.php  InstantArticleInterface.php  Sponsor.php
+Cite.php               Interactive.php              TextContainer.php
+Div.php                Italic.php                   Time.php
+Element.php            LineBreak.php                Video.php
+ElementWithHTML.php    ListElement.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Parser:
+Parser.php  instant-articles-rules.json
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer:
+Getters/  Logs/  Rules/  Settings/  Transformer.php  Warnings/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Getters:
+AbstractGetter.php  ExistsGetter.php    MultipleElementsGetter.php
+ChildrenGetter.php  FragmentGetter.php  NextSiblingElementGetter.php
+ConstantGetter.php  GetterFactory.php   NextSiblingGetter.php
+DateGetter.php      IntegerGetter.php   StringGetter.php
+ElementGetter.php   JSONGetter.php      XpathGetter.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Logs:
+TransformerLog.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules:
+AdRule.php                     ImageInsideParagraphRule.php
+AnalyticsRule.php              ImageRule.php
+AnchorRule.php                 InstantArticleRule.php
+AudioRule.php                  InteractiveInsideParagraphRule.php
+AuthorRule.php                 InteractiveRule.php
+BlockquoteRule.php             ItalicRule.php
+BoldRule.php                   LineBreakRule.php
+CaptionCreditRule.php          ListElementRule.php
+CaptionRule.php                ListItemRule.php
+Compat/                        MapRule.php
+ConfigurationSelectorRule.php  ParagraphFooterRule.php
+EmphasizedRule.php             ParagraphRule.php
+FooterRelatedArticlesRule.php  PassThroughRule.php
+FooterRule.php                 PullquoteCiteRule.php
+FooterSmallRule.php            PullquoteRule.php
+GeoTagRule.php                 RelatedArticlesRule.php
+GlobalRule.php                 RelatedItemRule.php
+H1Rule.php                     Rule.php
+H2Rule.php                     SlideshowImageRule.php
+HeaderAdRule.php               SlideshowRule.php
+HeaderImageRule.php            SocialEmbedRule.php
+HeaderKickerRule.php           SponsorRule.php
+HeaderRule.php                 TextNodeRule.php
+HeaderSubTitleRule.php         TimeRule.php
+HeaderTitleRule.php            VideoRule.php
+IgnoreRule.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Rules/Compat:
+JetpackSlideshowRule.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Settings:
+AdSettings.php  AnalyticsSettings.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Transformer/Warnings:
+DeprecatedRuleWarning.php             ValidatorWarning.php
+InvalidSelector.php                   Warning.php
+NoRootInstantArticleFoundWarning.php  validator_warning_messages.ini
+UnrecognizedElement.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/src/Facebook/InstantArticles/Validators:
+InstantArticleValidator.php  Type.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests:
+Facebook/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook:
+InstantArticles/  Util/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles:
+Client/  Elements/  Parser/  Transformer/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Client:
+ClientExceptionTest.php  ClientTest.php  HelperTest.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements:
+AdTest.php          FooterTest.php  InstantArticleTest.php   SlideshowTest.php
+AnalyticsTest.php   GeoTagTest.php  InteractiveTest.php      SponsorTest.php
+AudioTest.php       H1Test.php      ListElementTest.php      TimeTest.php
+AuthorTest.php      H2Test.php      MapTest.php              Validators/
+BlockquoteTest.php  H3Test.php      ParagraphTest.php        VideoTest.php
+CaptionTest.php     HeaderTest.php  PullquoteTest.php
+CiteTest.php        ImageTest.php   RelatedArticlesTest.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Elements/Validators:
+InstantArticleValidatorTest.php  TypeTest.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Parser:
+ParserTest.php
+instant-article-example-ads.html
+instant-article-example-no-timezone.html
+instant-article-example-nyc-timezone.html
+instant-article-example-standard-timezone.html
+instant-article-example.html
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer:
+CustomHTMLTransformerTest.php  custom-html-ia.xml
+Example/                       custom-html-rules.json
+GeneratorTrait.php             custom.html
+GlobalHtml/                    instant-article-example-multibyte.html
+Rules/                         instant-article-example-nonutf8.html
+TransformerTest.php            instant-article-example.html
+Warnings/
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Example:
+SimpleTransformerTest.php
+invalid-rule-class.json
+invalid-rules-syntax.json
+invalid-rules-unexpected-character.json
+simple-ia.html
+simple-rules-multiple-ads-settings.json
+simple-rules.json
+simple.html
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/GlobalHtml:
+GlobalTransformerTest.php      global-rules-with-text-date.json  global.html
+global-ia-with-text-date.html  global-rules.json
+global-ia.html                 global-with-text-date.html
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Rules:
+AuthorRuleTest.php  PullquoteRuleTest.php  RuleTest.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/InstantArticles/Transformer/Warnings:
+InvalidSelectorTest.php  WarningTest.php
+
+./fbia/includes/libs/vendor/facebook/facebook-instant-articles-sdk-php/tests/Facebook/Util:
+BaseHTMLTestCase.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk:
+CODE_OF_CONDUCT.md  LICENSE  composer.json  phpcs.xml.dist  src/
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src:
+Facebook/
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook:
+Authentication/            FacebookRequest.php   PersistentData/
+Exceptions/                FacebookResponse.php  PseudoRandomString/
+Facebook.php               FileUpload/           SignedRequest.php
+FacebookApp.php            GraphNodes/           Url/
+FacebookBatchRequest.php   Helpers/              autoload.php
+FacebookBatchResponse.php  Http/                 polyfills.php
+FacebookClient.php         HttpClients/
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/Authentication:
+AccessToken.php  AccessTokenMetadata.php  OAuth2Client.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/Exceptions:
+FacebookAuthenticationException.php  FacebookResumableUploadException.php
+FacebookAuthorizationException.php   FacebookSDKException.php
+FacebookClientException.php          FacebookServerException.php
+FacebookOtherException.php           FacebookThrottleException.php
+FacebookResponseException.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/FileUpload:
+FacebookFile.php               FacebookTransferChunk.php  Mimetypes.php
+FacebookResumableUploader.php  FacebookVideo.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/GraphNodes:
+Birthday.php          GraphEvent.php        GraphObjectFactory.php
+Collection.php        GraphGroup.php        GraphPage.php
+GraphAchievement.php  GraphList.php         GraphPicture.php
+GraphAlbum.php        GraphLocation.php     GraphSessionInfo.php
+GraphApplication.php  GraphNode.php         GraphUser.php
+GraphCoverPhoto.php   GraphNodeFactory.php
+GraphEdge.php         GraphObject.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/Helpers:
+FacebookCanvasHelper.php      FacebookRedirectLoginHelper.php
+FacebookJavaScriptHelper.php  FacebookSignedRequestFromInputHelper.php
+FacebookPageTabHelper.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/Http:
+GraphRawResponse.php      RequestBodyMultipart.php
+RequestBodyInterface.php  RequestBodyUrlEncoded.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/HttpClients:
+FacebookCurl.php                 FacebookStream.php
+FacebookCurlHttpClient.php       FacebookStreamHttpClient.php
+FacebookGuzzleHttpClient.php     HttpClientsFactory.php
+FacebookHttpClientInterface.php  certs/
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/HttpClients/certs:
+DigiCertHighAssuranceEVRootCA.pem
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/PersistentData:
+FacebookMemoryPersistentDataHandler.php   PersistentDataFactory.php
+FacebookSessionPersistentDataHandler.php  PersistentDataInterface.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/PseudoRandomString:
+McryptPseudoRandomStringGenerator.php
+OpenSslPseudoRandomStringGenerator.php
+PseudoRandomStringGeneratorFactory.php
+PseudoRandomStringGeneratorInterface.php
+PseudoRandomStringGeneratorTrait.php
+RandomBytesPseudoRandomStringGenerator.php
+UrandomPseudoRandomStringGenerator.php
+
+./fbia/includes/libs/vendor/facebook/graph-sdk/src/Facebook/Url:
+FacebookUrlDetectionHandler.php  UrlDetectionInterface.php
+FacebookUrlManipulator.php
+
+./fbia/includes/libs/vendor/symfony:
+css-selector/
+
+./fbia/includes/libs/vendor/symfony/css-selector:
+CHANGELOG.md              Exception/  Node/    README.md  composer.json
+CssSelectorConverter.php  LICENSE     Parser/  XPath/
+
+./fbia/includes/libs/vendor/symfony/css-selector/Exception:
+ExceptionInterface.php        ParseException.php
+ExpressionErrorException.php  SyntaxErrorException.php
+InternalErrorException.php
+
+./fbia/includes/libs/vendor/symfony/css-selector/Node:
+AbstractNode.php          ElementNode.php   NodeInterface.php
+AttributeNode.php         FunctionNode.php  PseudoNode.php
+ClassNode.php             HashNode.php      SelectorNode.php
+CombinedSelectorNode.php  NegationNode.php  Specificity.php
+
+./fbia/includes/libs/vendor/symfony/css-selector/Parser:
+Handler/    ParserInterface.php  Shortcut/  TokenStream.php
+Parser.php  Reader.php           Token.php  Tokenizer/
+
+./fbia/includes/libs/vendor/symfony/css-selector/Parser/Handler:
+CommentHandler.php    IdentifierHandler.php  WhitespaceHandler.php
+HandlerInterface.php  NumberHandler.php
+HashHandler.php       StringHandler.php
+
+./fbia/includes/libs/vendor/symfony/css-selector/Parser/Shortcut:
+ClassParser.php  ElementParser.php  EmptyStringParser.php  HashParser.php
+
+./fbia/includes/libs/vendor/symfony/css-selector/Parser/Tokenizer:
+Tokenizer.php  TokenizerEscaping.php  TokenizerPatterns.php
+
+./fbia/includes/libs/vendor/symfony/css-selector/XPath:
+Extension/  Translator.php  TranslatorInterface.php  XPathExpr.php
+
+./fbia/includes/libs/vendor/symfony/css-selector/XPath/Extension:
+AbstractExtension.php           FunctionExtension.php
+AttributeMatchingExtension.php  HtmlExtension.php
+CombinationExtension.php        NodeExtension.php
+ExtensionInterface.php          PseudoClassExtension.php
+
+./fbia/public:
+assets/                   class-analytics.php  class-general.php  index.php
+class-advertisements.php  class-feed.php       class-public.php   partials/
+
+./fbia/public/assets:
+css/  js/
+
+./fbia/public/assets/css:
+style-fbia.css  style-fbia.min.css
+
+./fbia/public/assets/js:
+script-fbia.js  script-fbia.min.js
+
+./fbia/public/partials:
+display-instantarticles.php  index.php
+
+./includes:
+class-plugin.php  index.php  libs/
+
+./includes/libs:
+Mobile_Detect.php  index.php
+
+./languages:
+daftplug-instantify-de_DE.mo  daftplug-instantify.pot
+daftplug-instantify-de_DE.po
+
+./public:
+assets/  class-public.php  index.php  partials/
+
+./public/assets:
+css/  js/
+
+./public/assets/css:
+fonts/  style-public.css  style-public.min.css
+
+./public/assets/css/fonts:
+daftplug-bold.ttf     daftplug-italic.woff2  daftplug-medium.woff
+daftplug-bold.woff    daftplug-light.ttf     daftplug-medium.woff2
+daftplug-bold.woff2   daftplug-light.woff    daftplug-normal.ttf
+daftplug-italic.ttf   daftplug-light.woff2   daftplug-normal.woff
+daftplug-italic.woff  daftplug-medium.ttf    daftplug-normal.woff2
+
+./public/assets/js:
+script-public.js  script-public.min.js
+
+./public/partials:
+display-pwaforbid.php  index.php
+
+./pwa:
+admin/  includes/  public/
+
+./pwa/admin:
+assets/                    class-enhancements.php       index.php
+class-accessibility.php    class-general.php            templates/
+class-addtohomescreen.php  class-offlineusage.php
+class-admin.php            class-pushnotifications.php
+
+./pwa/admin/assets:
+css/  img/  js/
+
+./pwa/admin/assets/css:
+style-pwa.css  style-pwa.min.css
+
+./pwa/admin/assets/img:
+icon-overlay-checkout.png    icon-overlay-snackbar.png
+icon-overlay-coupon.png      image-overlay-checkout.png
+icon-overlay-feed.png        image-overlay-coupon.png
+icon-overlay-fullscreen.png  image-overlay-feed.png
+icon-overlay-header.png      image-overlay-header.png
+icon-overlay-ios.png         image-overlay-menu.png
+icon-overlay-menu.png        image-overlay-snackbar.png
+icon-overlay-post.png
+
+./pwa/admin/assets/js:
+script-pwa.js  script-pwa.min.js
+
+./pwa/admin/templates:
+index.php                    subpage-general.php
+subpage-accessibility.php    subpage-offlineusage.php
+subpage-addtohomescreen.php  subpage-pushnotifications.php
+subpage-enhancements.php
+
+./pwa/includes:
+class-plugin.php  index.php  libs/
+
+./pwa/includes/libs:
+composer.json  composer.lock  index.php  passwordless-login/  vendor/
+
+./pwa/includes/libs/passwordless-login:
+build/  classes/  includes/  index.php  passwordless-login.php  vendor/
+
+./pwa/includes/libs/passwordless-login/build:
+asset-manifest.json  attach.9cd9c45e.css  login.67d5989c.css
+attach.969f3558.js   login.17909b30.js    vendors.5f2307b1.chunk.js
+
+./pwa/includes/libs/passwordless-login/classes:
+AssetResolver.php                        Server.php
+PublicKeyCredentialSourceRepository.php  Singleton.php
+
+./pwa/includes/libs/passwordless-login/includes:
+ajax.php  common.php  db.php  editing.php  scripts-login.php
+
+./pwa/includes/libs/passwordless-login/vendor:
+autoload.php  brick/     fgrosse/  nyholm/    psr/     spomky-labs/  web-auth/
+beberlei/     composer/  league/   php-http/  ramsey/  symfony/
+
+./pwa/includes/libs/passwordless-login/vendor/beberlei:
+assert/
+
+./pwa/includes/libs/passwordless-login/vendor/beberlei/assert:
+LICENSE  composer.json  lib/  phpstan-code.neon  phpstan-tests.neon
+
+./pwa/includes/libs/passwordless-login/vendor/beberlei/assert/lib:
+Assert/
+
+./pwa/includes/libs/passwordless-login/vendor/beberlei/assert/lib/Assert:
+Assert.php          AssertionFailedException.php  LazyAssertionException.php
+Assertion.php       InvalidArgumentException.php  functions.php
+AssertionChain.php  LazyAssertion.php
+
+./pwa/includes/libs/passwordless-login/vendor/brick:
+math/
+
+./pwa/includes/libs/passwordless-login/vendor/brick/math:
+LICENSE      composer.json       psalm.xml         src/
+SECURITY.md  psalm-baseline.xml  random-tests.php
+
+./pwa/includes/libs/passwordless-login/vendor/brick/math/src:
+BigDecimal.php  BigNumber.php    Exception/  RoundingMode.php
+BigInteger.php  BigRational.php  Internal/
+
+./pwa/includes/libs/passwordless-login/vendor/brick/math/src/Exception:
+DivisionByZeroException.php   NegativeNumberException.php
+IntegerOverflowException.php  NumberFormatException.php
+MathException.php             RoundingNecessaryException.php
+
+./pwa/includes/libs/passwordless-login/vendor/brick/math/src/Internal:
+Calculator/  Calculator.php
+
+./pwa/includes/libs/passwordless-login/vendor/brick/math/src/Internal/Calculator:
+BcMathCalculator.php  GmpCalculator.php  NativeCalculator.php
+
+./pwa/includes/libs/passwordless-login/vendor/composer:
+ClassLoader.php        autoload_namespaces.php  installed.json
+LICENSE                autoload_psr4.php        installers/
+autoload_classmap.php  autoload_real.php
+autoload_files.php     autoload_static.php
+
+./pwa/includes/libs/passwordless-login/vendor/composer/installers:
+LICENSE  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/composer/installers/src:
+Composer/  bootstrap.php
+
+./pwa/includes/libs/passwordless-login/vendor/composer/installers/src/Composer:
+Installers/
+
+./pwa/includes/libs/passwordless-login/vendor/composer/installers/src/Composer/Installers:
+AglInstaller.php                  MantisBTInstaller.php
+AimeosInstaller.php               MauticInstaller.php
+AnnotateCmsInstaller.php          MayaInstaller.php
+AsgardInstaller.php               MediaWikiInstaller.php
+AttogramInstaller.php             MicroweberInstaller.php
+BaseInstaller.php                 ModxInstaller.php
+BitrixInstaller.php               MoodleInstaller.php
+BonefishInstaller.php             OctoberInstaller.php
+CakePHPInstaller.php              OntoWikiInstaller.php
+ChefInstaller.php                 OsclassInstaller.php
+CiviCrmInstaller.php              OxidInstaller.php
+ClanCatsFrameworkInstaller.php    PPIInstaller.php
+CockpitInstaller.php              PhiftyInstaller.php
+CodeIgniterInstaller.php          PhpBBInstaller.php
+Concrete5Installer.php            PimcoreInstaller.php
+CraftInstaller.php                PiwikInstaller.php
+CroogoInstaller.php               PlentymarketsInstaller.php
+DecibelInstaller.php              Plugin.php
+DframeInstaller.php               PortoInstaller.php
+DokuWikiInstaller.php             PrestashopInstaller.php
+DolibarrInstaller.php             PuppetInstaller.php
+DrupalInstaller.php               PxcmsInstaller.php
+ElggInstaller.php                 RadPHPInstaller.php
+EliasisInstaller.php              ReIndexInstaller.php
+ExpressionEngineInstaller.php     Redaxo5Installer.php
+EzPlatformInstaller.php           RedaxoInstaller.php
+FuelInstaller.php                 RoundcubeInstaller.php
+FuelphpInstaller.php              SMFInstaller.php
+GravInstaller.php                 ShopwareInstaller.php
+HuradInstaller.php                SilverStripeInstaller.php
+ImageCMSInstaller.php             SiteDirectInstaller.php
+Installer.php                     SyDESInstaller.php
+ItopInstaller.php                 SyliusInstaller.php
+JoomlaInstaller.php               Symfony1Installer.php
+KanboardInstaller.php             TYPO3CmsInstaller.php
+KirbyInstaller.php                TYPO3FlowInstaller.php
+KnownInstaller.php                TaoInstaller.php
+KodiCMSInstaller.php              TheliaInstaller.php
+KohanaInstaller.php               TuskInstaller.php
+LanManagementSystemInstaller.php  UserFrostingInstaller.php
+LaravelInstaller.php              VanillaInstaller.php
+LavaLiteInstaller.php             VgmcpInstaller.php
+LithiumInstaller.php              WHMCSInstaller.php
+MODULEWorkInstaller.php           WolfCMSInstaller.php
+MODXEvoInstaller.php              WordPressInstaller.php
+MagentoInstaller.php              YawikInstaller.php
+MajimaInstaller.php               ZendInstaller.php
+MakoInstaller.php                 ZikulaInstaller.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse:
+phpasn1/
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1:
+CHANGELOG.md  LICENSE  README.md  composer.json  lib/
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib:
+ASN1/  Utility/  X509/
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/ASN1:
+ASNObject.php       Construct.php               Parsable.php
+AbstractString.php  Exception/                  TemplateParser.php
+AbstractTime.php    ExplicitlyTaggedObject.php  Universal/
+Base128.php         Identifier.php              UnknownConstructedObject.php
+Composite/          OID.php                     UnknownObject.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/ASN1/Composite:
+AttributeTypeAndValue.php  RDNString.php  RelativeDistinguishedName.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/ASN1/Exception:
+NotImplementedException.php  ParserException.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/ASN1/Universal:
+BMPString.php        IA5String.php         RelativeObjectIdentifier.php
+BitString.php        Integer.php           Sequence.php
+Boolean.php          NullObject.php        Set.php
+CharacterString.php  NumericString.php     T61String.php
+Enumerated.php       ObjectDescriptor.php  UTCTime.php
+GeneralString.php    ObjectIdentifier.php  UTF8String.php
+GeneralizedTime.php  OctetString.php       UniversalString.php
+GraphicString.php    PrintableString.php   VisibleString.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/Utility:
+BigInteger.php  BigIntegerBcmath.php  BigIntegerGmp.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/X509:
+AlgorithmIdentifier.php  CertificateExtensions.php  PrivateKey.php  SAN/
+CSR/                     CertificateSubject.php     PublicKey.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/X509/CSR:
+Attributes.php  CSR.php
+
+./pwa/includes/libs/passwordless-login/vendor/fgrosse/phpasn1/lib/X509/SAN:
+DNSName.php  IPAddress.php  SubjectAlternativeNames.php
+
+./pwa/includes/libs/passwordless-login/vendor/league:
+uri/  uri-components/  uri-interfaces/
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri:
+LICENSE  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri/src:
+Exceptions/  Uri.php      UriResolver.php  UriTemplate/
+Http.php     UriInfo.php  UriString.php    UriTemplate.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri/src/Exceptions:
+TemplateCanNotBeExpanded.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri/src/UriTemplate:
+Expression.php  Template.php  VarSpecifier.php  VariableBag.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-components:
+CHANGELOG.md  LICENSE  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-components/src:
+Components/  IPv4Calculators/    QueryString.php
+Exceptions/  IPv4Normalizer.php  UriModifier.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-components/src/Components:
+Authority.php  Domain.php            Host.php  Query.php
+Component.php  Fragment.php          Path.php  Scheme.php
+DataPath.php   HierarchicalPath.php  Port.php  UserInfo.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-components/src/Exceptions:
+IPv4CalculatorMissing.php  OffsetOutOfBounds.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-components/src/IPv4Calculators:
+BCMathCalculator.php  IPv4Calculator.php
+GMPCalculator.php     NativeCalculator.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-interfaces:
+LICENSE  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-interfaces/src:
+Contracts/  Exceptions/
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-interfaces/src/Contracts:
+AuthorityInterface.php   IpHostInterface.php         UriComponentInterface.php
+DataPathInterface.php    PathInterface.php           UriException.php
+DomainHostInterface.php  PortInterface.php           UriInterface.php
+FragmentInterface.php    QueryInterface.php          UserInfoInterface.php
+HostInterface.php        SegmentedPathInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/league/uri-interfaces/src/Exceptions:
+FileinfoSupportMissing.php  IdnSupportMissing.php  SyntaxError.php
+
+./pwa/includes/libs/passwordless-login/vendor/nyholm:
+psr7/  psr7-server/
+
+./pwa/includes/libs/passwordless-login/vendor/nyholm/psr7:
+CHANGELOG.md  LICENSE  README.md  composer.json  phpstan.baseline.dist  src/
+
+./pwa/includes/libs/passwordless-login/vendor/nyholm/psr7/src:
+Factory/            Request.php       ServerRequest.php  Uri.php
+LowercaseTrait.php  RequestTrait.php  Stream.php
+MessageTrait.php    Response.php      UploadedFile.php
+
+./pwa/includes/libs/passwordless-login/vendor/nyholm/psr7/src/Factory:
+HttplugFactory.php  Psr17Factory.php
+
+./pwa/includes/libs/passwordless-login/vendor/nyholm/psr7-server:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/nyholm/psr7-server/src:
+ServerRequestCreator.php  ServerRequestCreatorInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/php-http:
+message-factory/
+
+./pwa/includes/libs/passwordless-login/vendor/php-http/message-factory:
+CHANGELOG.md  LICENSE  README.md  composer.json  puli.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/php-http/message-factory/src:
+MessageFactory.php  ResponseFactory.php  UriFactory.php
+RequestFactory.php  StreamFactory.php
+
+./pwa/includes/libs/passwordless-login/vendor/psr:
+http-client/  http-factory/  http-message/  log/
+
+./pwa/includes/libs/passwordless-login/vendor/psr/http-client:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/psr/http-client/src:
+ClientExceptionInterface.php  NetworkExceptionInterface.php
+ClientInterface.php           RequestExceptionInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/psr/http-factory:
+LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/psr/http-factory/src:
+RequestFactoryInterface.php        StreamFactoryInterface.php
+ResponseFactoryInterface.php       UploadedFileFactoryInterface.php
+ServerRequestFactoryInterface.php  UriFactoryInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/psr/http-message:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/psr/http-message/src:
+MessageInterface.php   ServerRequestInterface.php  UriInterface.php
+RequestInterface.php   StreamInterface.php
+ResponseInterface.php  UploadedFileInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/psr/log:
+LICENSE  Psr/  README.md  composer.json
+
+./pwa/includes/libs/passwordless-login/vendor/psr/log/Psr:
+Log/
+
+./pwa/includes/libs/passwordless-login/vendor/psr/log/Psr/Log:
+AbstractLogger.php            LoggerAwareInterface.php  LoggerTrait.php
+InvalidArgumentException.php  LoggerAwareTrait.php      NullLogger.php
+LogLevel.php                  LoggerInterface.php       Test/
+
+./pwa/includes/libs/passwordless-login/vendor/psr/log/Psr/Log/Test:
+DummyTest.php  LoggerInterfaceTest.php  TestLogger.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey:
+collection/  uuid/
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/collection:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/collection/src:
+AbstractArray.php       CollectionInterface.php        Map/
+AbstractCollection.php  DoubleEndedQueue.php           Queue.php
+AbstractSet.php         DoubleEndedQueueInterface.php  QueueInterface.php
+ArrayInterface.php      Exception/                     Set.php
+Collection.php          GenericArray.php               Tool/
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/collection/src/Exception:
+CollectionMismatchException.php  OutOfBoundsException.php
+InvalidArgumentException.php     UnsupportedOperationException.php
+InvalidSortOrderException.php    ValueExtractionException.php
+NoSuchElementException.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/collection/src/Map:
+AbstractMap.php          MapInterface.php       TypedMapInterface.php
+AbstractTypedMap.php     NamedParameterMap.php
+AssociativeArrayMap.php  TypedMap.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/collection/src/Tool:
+TypeTrait.php  ValueExtractorTrait.php  ValueToStringTrait.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src:
+BinaryUtils.php                 FeatureSet.php  Rfc4122/
+Builder/                        Fields/         Type/
+Codec/                          Generator/      Uuid.php
+Converter/                      Guid/           UuidFactory.php
+DegradedUuid.php                Lazy/           UuidFactoryInterface.php
+DeprecatedUuidInterface.php     Math/           UuidInterface.php
+DeprecatedUuidMethodsTrait.php  Nonstandard/    Validator/
+Exception/                      Provider/       functions.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Builder:
+BuilderCollection.php   DegradedUuidBuilder.php  UuidBuilderInterface.php
+DefaultUuidBuilder.php  FallbackBuilder.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Codec:
+CodecInterface.php   OrderedTimeCodec.php  TimestampFirstCombCodec.php
+GuidStringCodec.php  StringCodec.php       TimestampLastCombCodec.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Converter:
+Number/  NumberConverterInterface.php  Time/  TimeConverterInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Converter/Number:
+BigNumberConverter.php  DegradedNumberConverter.php  GenericNumberConverter.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Converter/Time:
+BigNumberTimeConverter.php  GenericTimeConverter.php
+DegradedTimeConverter.php   PhpTimeConverter.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Exception:
+BuilderNotFoundException.php    NameException.php
+DateTimeException.php           NodeException.php
+DceSecurityException.php        RandomSourceException.php
+InvalidArgumentException.php    TimeSourceException.php
+InvalidBytesException.php       UnableToBuildUuidException.php
+InvalidUuidStringException.php  UnsupportedOperationException.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Fields:
+FieldsInterface.php  SerializableFieldsTrait.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Generator:
+CombGenerator.php                  PeclUuidRandomGenerator.php
+DceSecurityGenerator.php           PeclUuidTimeGenerator.php
+DceSecurityGeneratorInterface.php  RandomBytesGenerator.php
+DefaultNameGenerator.php           RandomGeneratorFactory.php
+DefaultTimeGenerator.php           RandomGeneratorInterface.php
+NameGeneratorFactory.php           RandomLibAdapter.php
+NameGeneratorInterface.php         TimeGeneratorFactory.php
+PeclUuidNameGenerator.php          TimeGeneratorInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Guid:
+Fields.php  Guid.php  GuidBuilder.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Lazy:
+LazyUuidFromString.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Math:
+BrickMathCalculator.php  CalculatorInterface.php  RoundingMode.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Nonstandard:
+Fields.php  Uuid.php  UuidBuilder.php  UuidV6.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Provider:
+Dce/                              NodeProviderInterface.php
+DceSecurityProviderInterface.php  Time/
+Node/                             TimeProviderInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Provider/Dce:
+SystemDceSecurityProvider.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Provider/Node:
+FallbackNodeProvider.php    RandomNodeProvider.php  SystemNodeProvider.php
+NodeProviderCollection.php  StaticNodeProvider.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Provider/Time:
+FixedTimeProvider.php  SystemTimeProvider.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Rfc4122:
+Fields.php           UuidBuilder.php    UuidV3.php     VariantTrait.php
+FieldsInterface.php  UuidInterface.php  UuidV4.php     VersionTrait.php
+NilTrait.php         UuidV1.php         UuidV5.php
+NilUuid.php          UuidV2.php         Validator.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Type:
+Decimal.php      Integer.php          Time.php
+Hexadecimal.php  NumberInterface.php  TypeInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/ramsey/uuid/src/Validator:
+GenericValidator.php  ValidatorInterface.php
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs:
+base64url/  cbor-php/
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs/base64url:
+LICENSE  composer.json  infection.json.dist  src/
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs/base64url/src:
+Base64Url.php
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs/cbor-php:
+CODE_OF_CONDUCT.md  composer.json        phpstan.neon
+LICENSE             infection.json.dist  src/
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs/cbor-php/src:
+AbstractCBORObject.php         OtherObject/
+ByteStringObject.php           OtherObject.php
+ByteStringWithChunkObject.php  SignedIntegerObject.php
+CBORObject.php                 Stream.php
+Decoder.php                    StringStream.php
+InfiniteListObject.php         Tag/
+InfiniteMapObject.php          TagObject.php
+LengthCalculator.php           TextStringObject.php
+ListObject.php                 TextStringWithChunkObject.php
+MapItem.php                    UnsignedIntegerObject.php
+MapObject.php                  Utils.php
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs/cbor-php/src/OtherObject:
+BreakObject.php                 OtherObjectManager.php
+DoublePrecisionFloatObject.php  SimpleObject.php
+FalseObject.php                 SinglePrecisionFloatObject.php
+GenericObject.php               TrueObject.php
+HalfPrecisionFloatObject.php    UndefinedObject.php
+NullObject.php
+
+./pwa/includes/libs/passwordless-login/vendor/spomky-labs/cbor-php/src/Tag:
+Base16EncodingTag.php     DecimalFractionTag.php     PositiveBigIntegerTag.php
+Base64EncodingTag.php     EpochTag.php               TagObjectManager.php
+Base64UrlEncodingTag.php  GenericTag.php             TimestampTag.php
+BigFloatTag.php           NegativeBigIntegerTag.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony:
+polyfill-ctype/  polyfill-mbstring/  polyfill-php80/  process/  var-dumper/
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-ctype:
+Ctype.php  LICENSE  README.md  bootstrap.php  composer.json
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-mbstring:
+LICENSE  Mbstring.php  README.md  Resources/  bootstrap.php  composer.json
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-mbstring/Resources:
+unidata/
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-mbstring/Resources/unidata:
+lowerCase.php  titleCaseRegexp.php  upperCase.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-php80:
+LICENSE  Php80.php  README.md  Resources/  bootstrap.php  composer.json
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-php80/Resources:
+stubs/
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/polyfill-php80/Resources/stubs:
+Stringable.php  UnhandledMatchError.php  ValueError.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/process:
+CHANGELOG.md          InputStream.php          PhpProcess.php  ProcessUtils.php
+Exception/            LICENSE                  Pipes/          README.md
+ExecutableFinder.php  PhpExecutableFinder.php  Process.php     composer.json
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/process/Exception:
+ExceptionInterface.php        ProcessSignaledException.php
+InvalidArgumentException.php  ProcessTimedOutException.php
+LogicException.php            RuntimeException.php
+ProcessFailedException.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/process/Pipes:
+AbstractPipes.php  PipesInterface.php  UnixPipes.php  WindowsPipes.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper:
+CHANGELOG.md  Command/    LICENSE     Server/        composer.json
+Caster/       Dumper/     README.md   Test/
+Cloner/       Exception/  Resources/  VarDumper.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Caster:
+AmqpCaster.php      EnumStub.php            RdKafkaCaster.php
+ArgsStub.php        ExceptionCaster.php     RedisCaster.php
+Caster.php          FrameStub.php           ReflectionCaster.php
+ClassStub.php       GmpCaster.php           ResourceCaster.php
+ConstStub.php       ImagineCaster.php       SplCaster.php
+CutArrayStub.php    ImgStub.php             StubCaster.php
+CutStub.php         IntlCaster.php          SymfonyCaster.php
+DOMCaster.php       LinkStub.php            TraceStub.php
+DateCaster.php      MemcachedCaster.php     UuidCaster.php
+DoctrineCaster.php  PdoCaster.php           XmlReaderCaster.php
+DsCaster.php        PgSqlCaster.php         XmlResourceCaster.php
+DsPairStub.php      ProxyManagerCaster.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Cloner:
+AbstractCloner.php   Cursor.php  DumperInterface.php  VarCloner.php
+ClonerInterface.php  Data.php    Stub.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Command:
+Descriptor/  ServerDumpCommand.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Command/Descriptor:
+CliDescriptor.php  DumpDescriptorInterface.php  HtmlDescriptor.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Dumper:
+AbstractDumper.php  ContextualizedDumper.php  ServerDumper.php
+CliDumper.php       DataDumperInterface.php
+ContextProvider/    HtmlDumper.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Dumper/ContextProvider:
+CliContextProvider.php        RequestContextProvider.php
+ContextProviderInterface.php  SourceContextProvider.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Exception:
+ThrowingCasterException.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Resources:
+bin/  css/  functions/  js/
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Resources/bin:
+var-dump-server*
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Resources/css:
+htmlDescriptor.css
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Resources/functions:
+dump.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Resources/js:
+htmlDescriptor.js
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Server:
+Connection.php  DumpServer.php
+
+./pwa/includes/libs/passwordless-login/vendor/symfony/var-dumper/Test:
+VarDumperTestTrait.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth:
+cose-lib/  metadata-service/  webauthn-lib/
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib:
+LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src:
+Algorithm/  Algorithms.php  Key/  Verifier.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Algorithm:
+Algorithm.php  Mac/  Manager.php  ManagerFactory.php  Signature/
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Algorithm/Mac:
+HS256.php  HS256Truncated64.php  HS384.php  HS512.php  Hmac.php  Mac.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Algorithm/Signature:
+ECDSA/  EdDSA/  RSA/  Signature.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Algorithm/Signature/ECDSA:
+ECDSA.php  ECSignature.php  ES256.php  ES256K.php  ES384.php  ES512.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Algorithm/Signature/EdDSA:
+ED256.php  ED512.php  Ed25519.php  EdDSA.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Algorithm/Signature/RSA:
+PS256.php  PS512.php   RS1.php    RS384.php  RSA.php
+PS384.php  PSSRSA.php  RS256.php  RS512.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/cose-lib/src/Key:
+Ec2Key.php  Key.php  OkpKey.php  RsaKey.php  SymmetricKey.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/metadata-service:
+LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/metadata-service/src:
+AbstractDescriptor.php                   MetadataStatementRepository.php
+AuthenticatorStatus.php                  MetadataTOCPayload.php
+BiometricAccuracyDescriptor.php          MetadataTOCPayloadEntry.php
+BiometricStatusReport.php                PatternAccuracyDescriptor.php
+CodeAccuracyDescriptor.php               RgbPaletteEntry.php
+DisplayPNGCharacteristicsDescriptor.php  RogueListEntry.php
+DistantSingleMetadata.php                SingleMetadata.php
+EcdaaTrustAnchor.php                     StatusReport.php
+ExtensionDescriptor.php                  Utils.php
+MetadataService.php                      VerificationMethodANDCombinations.php
+MetadataStatement.php                    VerificationMethodDescriptor.php
+MetadataStatementFetcher.php             Version.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib:
+LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src:
+AttestationStatement/
+AttestedCredentialData.php
+AuthenticationExtensions/
+AuthenticatorAssertionResponse.php
+AuthenticatorAssertionResponseValidator.php
+AuthenticatorAttestationResponse.php
+AuthenticatorAttestationResponseValidator.php
+AuthenticatorData.php
+AuthenticatorResponse.php
+AuthenticatorSelectionCriteria.php
+CertificateToolbox.php
+CollectedClientData.php
+Counter/
+Credential.php
+PublicKeyCredential.php
+PublicKeyCredentialCreationOptions.php
+PublicKeyCredentialDescriptor.php
+PublicKeyCredentialDescriptorCollection.php
+PublicKeyCredentialEntity.php
+PublicKeyCredentialLoader.php
+PublicKeyCredentialOptions.php
+PublicKeyCredentialParameters.php
+PublicKeyCredentialRequestOptions.php
+PublicKeyCredentialRpEntity.php
+PublicKeyCredentialSource.php
+PublicKeyCredentialSourceRepository.php
+PublicKeyCredentialUserEntity.php
+Server.php
+StringStream.php
+TokenBinding/
+TrustPath/
+Util/
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src/AttestationStatement:
+AndroidKeyAttestationStatementSupport.php
+AndroidSafetyNetAttestationStatementSupport.php
+AttestationObject.php
+AttestationObjectLoader.php
+AttestationStatement.php
+AttestationStatementSupport.php
+AttestationStatementSupportManager.php
+FidoU2FAttestationStatementSupport.php
+NoneAttestationStatementSupport.php
+PackedAttestationStatementSupport.php
+TPMAttestationStatementSupport.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src/AuthenticationExtensions:
+AuthenticationExtension.php
+AuthenticationExtensionsClientInputs.php
+AuthenticationExtensionsClientOutputs.php
+AuthenticationExtensionsClientOutputsLoader.php
+ExtensionOutputChecker.php
+ExtensionOutputCheckerHandler.php
+ExtensionOutputError.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src/Counter:
+CounterChecker.php  ThrowExceptionIfInvalid.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src/TokenBinding:
+IgnoreTokenBindingHandler.php  TokenBindingHandler.php
+SecTokenBindingHandler.php     TokenBindingNotSupportedHandler.php
+TokenBinding.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src/TrustPath:
+CertificateTrustPath.php  EmptyTrustPath.php  TrustPathLoader.php
+EcdaaKeyIdTrustPath.php   TrustPath.php
+
+./pwa/includes/libs/passwordless-login/vendor/web-auth/webauthn-lib/src/Util:
+CoseSignatureFixer.php
+
+./pwa/includes/libs/vendor:
+autoload.php  composer/  guzzlehttp/  psr/        spomky-labs/  web-token/
+brick/        fgrosse/   minishlink/  ralouphie/  symfony/
+
+./pwa/includes/libs/vendor/brick:
+math/
+
+./pwa/includes/libs/vendor/brick/math:
+CHANGELOG.md  LICENSE  SECURITY.md  composer.json  src/
+
+./pwa/includes/libs/vendor/brick/math/src:
+BigDecimal.php  BigNumber.php    Exception/  RoundingMode.php
+BigInteger.php  BigRational.php  Internal/
+
+./pwa/includes/libs/vendor/brick/math/src/Exception:
+DivisionByZeroException.php   NegativeNumberException.php
+IntegerOverflowException.php  NumberFormatException.php
+MathException.php             RoundingNecessaryException.php
+
+./pwa/includes/libs/vendor/brick/math/src/Internal:
+Calculator/  Calculator.php
+
+./pwa/includes/libs/vendor/brick/math/src/Internal/Calculator:
+BcMathCalculator.php  GmpCalculator.php  NativeCalculator.php
+
+./pwa/includes/libs/vendor/composer:
+ClassLoader.php        autoload_files.php       autoload_static.php
+InstalledVersions.php  autoload_namespaces.php  installed.json
+LICENSE                autoload_psr4.php        installed.php
+autoload_classmap.php  autoload_real.php        platform_check.php
+
+./pwa/includes/libs/vendor/fgrosse:
+phpasn1/
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1:
+CHANGELOG.md  LICENSE  README.md  composer.json  lib/
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib:
+ASN1/  Utility/  X509/
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/ASN1:
+ASNObject.php       Construct.php               Parsable.php
+AbstractString.php  Exception/                  TemplateParser.php
+AbstractTime.php    ExplicitlyTaggedObject.php  Universal/
+Base128.php         Identifier.php              UnknownConstructedObject.php
+Composite/          OID.php                     UnknownObject.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/ASN1/Composite:
+AttributeTypeAndValue.php  RDNString.php  RelativeDistinguishedName.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/ASN1/Exception:
+NotImplementedException.php  ParserException.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/ASN1/Universal:
+BMPString.php        IA5String.php         RelativeObjectIdentifier.php
+BitString.php        Integer.php           Sequence.php
+Boolean.php          NullObject.php        Set.php
+CharacterString.php  NumericString.php     T61String.php
+Enumerated.php       ObjectDescriptor.php  UTCTime.php
+GeneralString.php    ObjectIdentifier.php  UTF8String.php
+GeneralizedTime.php  OctetString.php       UniversalString.php
+GraphicString.php    PrintableString.php   VisibleString.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/Utility:
+BigInteger.php  BigIntegerBcmath.php  BigIntegerGmp.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/X509:
+AlgorithmIdentifier.php  CertificateExtensions.php  PrivateKey.php  SAN/
+CSR/                     CertificateSubject.php     PublicKey.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/X509/CSR:
+Attributes.php  CSR.php
+
+./pwa/includes/libs/vendor/fgrosse/phpasn1/lib/X509/SAN:
+DNSName.php  IPAddress.php  SubjectAlternativeNames.php
+
+./pwa/includes/libs/vendor/guzzlehttp:
+guzzle/  promises/  psr7/
+
+./pwa/includes/libs/vendor/guzzlehttp/guzzle:
+CHANGELOG.md  LICENSE  README.md  UPGRADING.md  composer.json  src/
+
+./pwa/includes/libs/vendor/guzzlehttp/guzzle/src:
+BodySummarizer.php             Middleware.php
+BodySummarizerInterface.php    Pool.php
+Client.php                     PrepareBodyMiddleware.php
+ClientInterface.php            RedirectMiddleware.php
+ClientTrait.php                RequestOptions.php
+Cookie/                        RetryMiddleware.php
+Exception/                     TransferStats.php
+Handler/                       Utils.php
+HandlerStack.php               functions.php
+MessageFormatter.php           functions_include.php
+MessageFormatterInterface.php
+
+./pwa/includes/libs/vendor/guzzlehttp/guzzle/src/Cookie:
+CookieJar.php           FileCookieJar.php     SetCookie.php
+CookieJarInterface.php  SessionCookieJar.php
+
+./pwa/includes/libs/vendor/guzzlehttp/guzzle/src/Exception:
+BadResponseException.php      RequestException.php
+ClientException.php           ServerException.php
+ConnectException.php          TooManyRedirectsException.php
+GuzzleException.php           TransferException.php
+InvalidArgumentException.php
+
+./pwa/includes/libs/vendor/guzzlehttp/guzzle/src/Handler:
+CurlFactory.php           CurlMultiHandler.php  MockHandler.php
+CurlFactoryInterface.php  EasyHandle.php        Proxy.php
+CurlHandler.php           HeaderProcessor.php   StreamHandler.php
+
+./pwa/includes/libs/vendor/guzzlehttp/promises:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/vendor/guzzlehttp/promises/src:
+AggregateException.php     FulfilledPromise.php   RejectionException.php
+CancellationException.php  Is.php                 TaskQueue.php
+Coroutine.php              Promise.php            TaskQueueInterface.php
+Create.php                 PromiseInterface.php   Utils.php
+Each.php                   PromisorInterface.php  functions.php
+EachPromise.php            RejectedPromise.php    functions_include.php
+
+./pwa/includes/libs/vendor/guzzlehttp/psr7:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/vendor/guzzlehttp/psr7/src:
+AppendStream.php    Message.php          Stream.php
+BufferStream.php    MessageTrait.php     StreamDecoratorTrait.php
+CachingStream.php   MimeType.php         StreamWrapper.php
+DroppingStream.php  MultipartStream.php  UploadedFile.php
+Exception/          NoSeekStream.php     Uri.php
+FnStream.php        PumpStream.php       UriComparator.php
+Header.php          Query.php            UriNormalizer.php
+HttpFactory.php     Request.php          UriResolver.php
+InflateStream.php   Response.php         Utils.php
+LazyOpenStream.php  Rfc7230.php
+LimitStream.php     ServerRequest.php
+
+./pwa/includes/libs/vendor/guzzlehttp/psr7/src/Exception:
+MalformedUriException.php
+
+./pwa/includes/libs/vendor/minishlink:
+web-push/
+
+./pwa/includes/libs/vendor/minishlink/web-push:
+LICENSE  composer.json  phpstan.neon  src/
+
+./pwa/includes/libs/vendor/minishlink/web-push/src:
+Encryption.php         Notification.php  SubscriptionInterface.php  VAPID.php
+MessageSentReport.php  Subscription.php  Utils.php                  WebPush.php
+
+./pwa/includes/libs/vendor/psr:
+http-client/  http-factory/  http-message/
+
+./pwa/includes/libs/vendor/psr/http-client:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/vendor/psr/http-client/src:
+ClientExceptionInterface.php  NetworkExceptionInterface.php
+ClientInterface.php           RequestExceptionInterface.php
+
+./pwa/includes/libs/vendor/psr/http-factory:
+LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/vendor/psr/http-factory/src:
+RequestFactoryInterface.php        StreamFactoryInterface.php
+ResponseFactoryInterface.php       UploadedFileFactoryInterface.php
+ServerRequestFactoryInterface.php  UriFactoryInterface.php
+
+./pwa/includes/libs/vendor/psr/http-message:
+CHANGELOG.md  LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/vendor/psr/http-message/src:
+MessageInterface.php   ServerRequestInterface.php  UriInterface.php
+RequestInterface.php   StreamInterface.php
+ResponseInterface.php  UploadedFileInterface.php
+
+./pwa/includes/libs/vendor/ralouphie:
+getallheaders/
+
+./pwa/includes/libs/vendor/ralouphie/getallheaders:
+LICENSE  README.md  composer.json  src/
+
+./pwa/includes/libs/vendor/ralouphie/getallheaders/src:
+getallheaders.php
+
+./pwa/includes/libs/vendor/spomky-labs:
+base64url/
+
+./pwa/includes/libs/vendor/spomky-labs/base64url:
+LICENSE  composer.json  src/
+
+./pwa/includes/libs/vendor/spomky-labs/base64url/src:
+Base64Url.php
+
+./pwa/includes/libs/vendor/symfony:
+deprecation-contracts/
+
+./pwa/includes/libs/vendor/symfony/deprecation-contracts:
+CHANGELOG.md  LICENSE  README.md  composer.json  function.php
+
+./pwa/includes/libs/vendor/web-token:
+jwt-core/      jwt-signature/                  jwt-util-ecc/
+jwt-key-mgmt/  jwt-signature-algorithm-ecdsa/
+
+./pwa/includes/libs/vendor/web-token/jwt-core:
+Algorithm.php                JWK.php     LICENSE    composer.json
+AlgorithmManager.php         JWKSet.php  README.md
+AlgorithmManagerFactory.php  JWT.php     Util/
+
+./pwa/includes/libs/vendor/web-token/jwt-core/Util:
+BigInteger.php  ECSignature.php  JsonConverter.php  RSAKey.php
+ECKey.php       Hash.php         KeyChecker.php
+
+./pwa/includes/libs/vendor/web-token/jwt-key-mgmt:
+Analyzer/       JWKFactory.php  LICENSE    UrlKeySetFactory.php  composer.json
+JKUFactory.php  KeyConverter/   README.md  X5UFactory.php
+
+./pwa/includes/libs/vendor/web-token/jwt-key-mgmt/Analyzer:
+AlgorithmAnalyzer.php  KeyAnalyzer.php            MixedKeyTypes.php
+ES256KeyAnalyzer.php   KeyAnalyzerManager.php     MixedPublicAndPrivateKeys.php
+ES384KeyAnalyzer.php   KeyIdentifierAnalyzer.php  NoneAnalyzer.php
+ES512KeyAnalyzer.php   KeysetAnalyzer.php         OctAnalyzer.php
+HS256KeyAnalyzer.php   KeysetAnalyzerManager.php  RsaAnalyzer.php
+HS384KeyAnalyzer.php   Message.php                UsageAnalyzer.php
+HS512KeyAnalyzer.php   MessageBag.php             ZxcvbnKeyAnalyzer.php
+
+./pwa/includes/libs/vendor/web-token/jwt-key-mgmt/KeyConverter:
+ECKey.php  KeyConverter.php  RSAKey.php
+
+./pwa/includes/libs/vendor/web-token/jwt-signature:
+Algorithm/             JWSLoaderFactory.php    README.md
+JWS.php                JWSTokenSupport.php     Serializer/
+JWSBuilder.php         JWSVerifier.php         Signature.php
+JWSBuilderFactory.php  JWSVerifierFactory.php  composer.json
+JWSLoader.php          LICENSE
+
+./pwa/includes/libs/vendor/web-token/jwt-signature/Algorithm:
+MacAlgorithm.php  SignatureAlgorithm.php
+
+./pwa/includes/libs/vendor/web-token/jwt-signature/Serializer:
+CompactSerializer.php        JWSSerializer.php                Serializer.php
+JSONFlattenedSerializer.php  JWSSerializerManager.php
+JSONGeneralSerializer.php    JWSSerializerManagerFactory.php
+
+./pwa/includes/libs/vendor/web-token/jwt-signature-algorithm-ecdsa:
+ECDSA.php  ES256.php  ES384.php  ES512.php  LICENSE  README.md  composer.json
+
+./pwa/includes/libs/vendor/web-token/jwt-util-ecc:
+Curve.php  Math.php               Point.php       README.md
+EcDH.php   ModularArithmetic.php  PrivateKey.php  composer.json
+LICENSE    NistCurve.php          PublicKey.php
+
+./pwa/public:
+assets/                    class-general.php            index.php
+class-accessibility.php    class-offlineusage.php       partials/
+class-addtohomescreen.php  class-public.php
+class-enhancements.php     class-pushnotifications.php
+
+./pwa/public/assets:
+css/  img/  js/
+
+./pwa/public/assets/css:
+style-offlinenotification.css  style-pwa.css  style-pwa.min.css
+
+./pwa/public/assets/img:
+icon-chrome.png         icon-iosstep1.png       icon-present.png
+icon-discount.png       icon-iosstep1.png.webp  icon-safari.png
+icon-discount.png.webp  icon-iosstep2.png       image-mobileicons.png
+icon-edge.png           icon-iosstep2.png.webp
+icon-firefox.png        icon-opera.png
+
+./pwa/public/assets/js:
+script-ajaxify.js              script-push.js     script-touchevents.js
+script-darkmode.js             script-pwa.js      script-uaparser.js
+script-offlineforms.js         script-pwa.min.js  script-vibrate.js
+script-offlinenotification.js  script-shake.js    workbox-v6.5.3/
+script-pulldownnavigation.js   script-toast.js
+
+./pwa/public/assets/js/workbox-v6.5.3:
+workbox-background-sync.dev.js          workbox-range-requests.dev.js.map
+workbox-background-sync.dev.js.map      workbox-range-requests.prod.js
+workbox-background-sync.prod.js         workbox-range-requests.prod.js.map
+workbox-background-sync.prod.js.map     workbox-recipes.dev.js
+workbox-broadcast-update.dev.js         workbox-recipes.dev.js.map
+workbox-broadcast-update.dev.js.map     workbox-recipes.prod.js
+workbox-broadcast-update.prod.js        workbox-recipes.prod.js.map
+workbox-broadcast-update.prod.js.map    workbox-routing.dev.js
+workbox-cacheable-response.dev.js       workbox-routing.dev.js.map
+workbox-cacheable-response.dev.js.map   workbox-routing.prod.js
+workbox-cacheable-response.prod.js      workbox-routing.prod.js.map
+workbox-cacheable-response.prod.js.map  workbox-strategies.dev.js
+workbox-core.dev.js                     workbox-strategies.dev.js.map
+workbox-core.dev.js.map                 workbox-strategies.prod.js
+workbox-core.prod.js                    workbox-strategies.prod.js.map
+workbox-core.prod.js.map                workbox-streams.dev.js
+workbox-expiration.dev.js               workbox-streams.dev.js.map
+workbox-expiration.dev.js.map           workbox-streams.prod.js
+workbox-expiration.prod.js              workbox-streams.prod.js.map
+workbox-expiration.prod.js.map          workbox-sw.js
+workbox-navigation-preload.dev.js       workbox-sw.js.map
+workbox-navigation-preload.dev.js.map   workbox-window.dev.es5.js
+workbox-navigation-preload.prod.js      workbox-window.dev.es5.js.map
+workbox-navigation-preload.prod.js.map  workbox-window.dev.js
+workbox-offline-ga.dev.js               workbox-window.dev.js.map
+workbox-offline-ga.dev.js.map           workbox-window.dev.umd.js
+workbox-offline-ga.prod.js              workbox-window.dev.umd.js.map
+workbox-offline-ga.prod.js.map          workbox-window.prod.es5.js
+workbox-precaching.dev.js               workbox-window.prod.es5.js.map
+workbox-precaching.dev.js.map           workbox-window.prod.js
+workbox-precaching.prod.js              workbox-window.prod.js.map
+workbox-precaching.prod.js.map          workbox-window.prod.umd.js
+workbox-range-requests.dev.js           workbox-window.prod.umd.js.map
+
+./pwa/public/partials:
+display-checkoutoverlay.php     display-preloader.php
+display-couponoverlay.php       display-pushbutton.php
+display-fullscreenoverlays.php  display-pushprompt.php
+display-headeroverlay.php       display-registerserviceworker.php
+display-iosoverlay.php          display-scrollprogressbar.php
+display-metatags.php            display-snackbaroverlay.php
+display-navigationtabbar.php    display-websharebutton.php
+display-postoverlay.php         index.php
+
