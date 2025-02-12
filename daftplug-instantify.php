@@ -9,10 +9,8 @@ Author URI: https://daftplug.com/
 Text Domain: daftplug-instantify
 Domain Path: /languages
 Requires at least: 5.0
-Requires PHP: 7.0
+Requires PHP: 8.0
 */
-
-update_option( 'daftplug_instantify_purchase_code', '*************' );
 
 if (!defined('ABSPATH')) exit;
 
