@@ -1,3 +1,5 @@
+
+// Section 1 BEGIN
 <?php
 
 if (!defined('ABSPATH')) exit;
@@ -60,7 +62,8 @@ if (!class_exists('daftplugInstantify')) {
             $this->capability = 'manage_options';
 
             self::$settings = $config['settings'];
-
+// Section 1 END
+// Section 2 BEGIN
             $this->defaultSettings = array(
                 'uninstallSettings' => 'delete',
                 'pwa' => 'on',
@@ -234,6 +237,10 @@ if (!class_exists('daftplugInstantify')) {
                 'pwaShakeToRefresh' => 'off',
                 'pwaShakeToRefreshPlatforms' => array('mobile', 'tablet', 'pwa'),
                 'pwaPreloader' => 'off',
+
+// Section 2 END
+
+// Section 3 BEGIN
                 'pwaPreloaderStyle' => 'default',
                 'pwaPreloaderPlatforms' => array('desktop', 'mobile', 'tablet', 'pwa'),
                 'pwaInactiveBlur' => 'off',
@@ -449,7 +456,9 @@ if (!class_exists('daftplugInstantify')) {
         
             return $links;
         }
+// Section 3 END
 
+// Section 4 BEGIN
         public function onActivate() {
             $errors = array(
                 'curl' => array(
@@ -651,7 +660,8 @@ if (!class_exists('daftplugInstantify')) {
             	return false;
             }
         }
-
+// Section 4 END
+// Section 5 BEGIN  
         public static function isAmpPage() {
             if (function_exists('amp_is_request')) {
                 return amp_is_request();
@@ -780,3 +790,4 @@ if (!class_exists('daftplugInstantify')) {
         }
     }
 }
+// Section 5 END
