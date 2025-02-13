@@ -63,7 +63,7 @@ if (!class_exists('daftplugInstantify')) {
 
             self::$settings = $config['settings'];
 // Section 1 END
-// Section 2 BEGIN
+// Section 2A BEGIN
             $this->defaultSettings = array(
                 'uninstallSettings' => 'delete',
                 'pwa' => 'on',
@@ -169,6 +169,8 @@ if (!class_exists('daftplugInstantify')) {
                 'pwaOfflineVideosStrategy' => 'CacheFirst',
                 'pwaOfflineAudiosStrategy' => 'CacheFirst',
                 'pwaOfflineCacheExpiration' => '10',
+// Section 2A END
+// Section 2B BEGIN
                 'pwaNavigationTabBar' => 'off',
                 'pwaNavigationTabBarBgColor' => '#FFFFFF',
                 'pwaNavigationTabBarIconColor' => '#B3B9CA',
@@ -238,9 +240,9 @@ if (!class_exists('daftplugInstantify')) {
                 'pwaShakeToRefreshPlatforms' => array('mobile', 'tablet', 'pwa'),
                 'pwaPreloader' => 'off',
 
-// Section 2 END
+// Section 2B END
 
-// Section 3 BEGIN
+// Section 3A BEGIN
                 'pwaPreloaderStyle' => 'default',
                 'pwaPreloaderPlatforms' => array('desktop', 'mobile', 'tablet', 'pwa'),
                 'pwaInactiveBlur' => 'off',
@@ -327,6 +329,8 @@ if (!class_exists('daftplugInstantify')) {
                 'pwaPushUmGroupRoleChange' => 'off',
                 'pwaPushUmGroupPost' => 'off',
                 'pwaPushUmGroupComment' => 'off',
+// Section 3A END
+// Section 3B BEGIN
                 'amp' => 'off',
                 'ampPlatforms' => array('desktop', 'mobile', 'tablet'),
                 'ampUrlStructure' => 'queryParameter',
@@ -456,9 +460,10 @@ if (!class_exists('daftplugInstantify')) {
         
             return $links;
         }
-// Section 3 END
 
-// Section 4 BEGIN
+// Section 3B END
+// Section 4A BEGIN
+
         public function onActivate() {
             $errors = array(
                 'curl' => array(
@@ -552,7 +557,8 @@ if (!class_exists('daftplugInstantify')) {
 
             return $result;
         }
-
+// Section 4A END
+// Section 4B BEGIN
         public static function getSetting($key) {
             if (array_key_exists($key, (array)self::$settings)) {
                 return self::$settings[$key];
@@ -660,7 +666,7 @@ if (!class_exists('daftplugInstantify')) {
             	return false;
             }
         }
-// Section 4 END
+// Section 4B END
 // Section 5 BEGIN  
         public static function isAmpPage() {
             if (function_exists('amp_is_request')) {
