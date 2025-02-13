@@ -1,5 +1,5 @@
-
 // Section 1 BEGIN
+//Plugin Name: DaftPlug Instantify - Alpha
 <?php
 
 if (!defined('ABSPATH')) exit;
